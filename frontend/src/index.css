@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ledger: #eef1ec;
+  --color-ink: #1c2321;
+  --color-maroon: #7a1f3d;
+  --color-gold: #c9a227;
+  --color-rule: #c7cec6;
+
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-body: "Public Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+.answer-enter {
+  animation: fade-up 300ms ease-out both;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .answer-enter {
+    animation: none;
+  }
+}
