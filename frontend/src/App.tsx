@@ -16,12 +16,28 @@ export default function App() {
   const [answer, setAnswer] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   const [tickerIndex, setTickerIndex] = useState(0);
+  const [ambientIndex, setAmbientIndex] = useState(0);
+  const [ambientVisible, setAmbientVisible] = useState(true);
 
+  // Fast ticker while Gemini reads the catalog
   useEffect(() => {
     if (status !== "loading") return;
     const id = setInterval(() => {
       setTickerIndex((i) => (i + 1) % TICKER_LINES.length);
     }, 350);
+    return () => clearInterval(id);
+  }, [status]);
+
+  // Slow ambient pulse of the catalog when not loading
+  useEffect(() => {
+    if (status === "loading") return;
+    const id = setInterval(() => {
+      setAmbientVisible(false);
+      setTimeout(() => {
+        setAmbientIndex((i) => (i + 1) % TICKER_LINES.length);
+        setAmbientVisible(true);
+      }, 400);
+    }, 4000);
     return () => clearInterval(id);
   }, [status]);
 
@@ -47,15 +63,15 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-ledger font-body text-ink">
-      <main className="mx-auto flex max-w-2xl flex-col gap-8 px-6 py-16">
-        <header className="border-b border-rule pb-6">
-          <h1 className="font-display text-4xl font-bold tracking-tight">
+    <div className="ledger-paper min-h-screen font-body text-ink">
+      <main className="mx-auto flex min-h-screen max-w-2xl flex-col gap-8 px-6 py-14">
+        <header className="double-rule pb-8">
+          <p className="font-mono text-xs font-medium uppercase tracking-[0.25em] text-maroon">
+            Calvin University · Fall 2025
+          </p>
+          <h1 className="mt-3 font-display text-6xl font-bold tracking-tight">
             Course Advisor
           </h1>
-          <p className="mt-2 font-mono text-xs text-ink/70">
-            Calvin University · Fall 2025 · 1,021 sections
-          </p>
         </header>
 
         <form
@@ -68,14 +84,14 @@ export default function App() {
           <input
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
-            placeholder="Ask about Fall 2025 courses"
+            placeholder="ask about fall 2025 courses"
             aria-label="Your question about Fall 2025 courses"
-            className="flex-1 rounded-md border border-rule bg-white px-4 py-3 font-mono text-sm outline-none focus-visible:outline-2 focus-visible:outline-gold"
+            className="flex-1 rounded-md border border-rule bg-white px-4 py-3.5 font-mono text-sm outline-none focus-visible:outline-2 focus-visible:outline-gold"
           />
           <button
             type="submit"
             disabled={status === "loading"}
-            className="rounded-md bg-maroon px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-maroon/90 focus-visible:outline-2 focus-visible:outline-gold disabled:opacity-60"
+            className="rounded-md bg-maroon px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-maroon/90 focus-visible:outline-2 focus-visible:outline-gold disabled:opacity-60"
           >
             Ask
           </button>
@@ -107,7 +123,7 @@ export default function App() {
         )}
 
         {status === "done" && (
-          <article className="answer-enter rounded-md border border-rule bg-white p-6">
+          <article className="answer-enter rounded-md border border-l-4 border-rule border-l-maroon bg-white p-6">
             <p className="whitespace-pre-wrap text-sm leading-relaxed">
               {answer}
             </p>
@@ -115,13 +131,26 @@ export default function App() {
         )}
 
         {status === "error" && (
-          <div className="rounded-md border border-maroon/40 bg-white p-5">
+          <div className="rounded-md border border-l-4 border-maroon/40 border-l-maroon bg-white p-5">
             <p className="text-sm">
               Couldn't reach the advisor service. Check that the backend is
               running on port 8000, then ask again.
             </p>
           </div>
         )}
+
+        <footer className="mt-auto border-t border-rule pt-4">
+          <p className="font-mono text-[11px] uppercase tracking-widest text-ink/40">
+            1,021 sections on file
+          </p>
+          <p
+            className={`ambient-line mt-1 truncate font-mono text-xs text-ink/50 ${
+              ambientVisible ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            {TICKER_LINES[ambientIndex]}
+          </p>
+        </footer>
       </main>
     </div>
   );

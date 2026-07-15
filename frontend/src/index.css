@@ -12,6 +12,24 @@
   --font-mono: "IBM Plex Mono", monospace;
 }
 
+/* Ledger paper: faint horizontal rules */
+.ledger-paper {
+  background-color: var(--color-ledger);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 31px,
+    rgba(28, 35, 33, 0.045) 31px,
+    rgba(28, 35, 33, 0.045) 32px
+  );
+}
+
+/* Registrar's double rule under the masthead */
+.double-rule {
+  border-bottom: 3px solid var(--color-maroon);
+  box-shadow: 0 6px 0 -5px var(--color-gold);
+}
+
 .answer-enter {
   animation: fade-up 300ms ease-out both;
 }
@@ -27,8 +45,15 @@
   }
 }
 
+.ambient-line {
+  transition: opacity 400ms ease;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .answer-enter {
     animation: none;
+  }
+  .ambient-line {
+    transition: none;
   }
 }
