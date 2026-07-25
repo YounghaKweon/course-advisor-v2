@@ -32,6 +32,39 @@ chroma = chromadb.PersistentClient(path=INDEX_PATH)
 collection = chroma.get_or_create_collection(name=COLLECTION_NAME, embedding_function=None)
 
 
+def build_instructor_index() -> dict:
+    # Week 3: exact instructor-name lookup, built once at startup from the
+    # metadata already in Chroma. Instructors is stored as a raw ";"-joined
+    # string (co-taught sections have 2+ names) — split it into individual
+    # names here so each one is independently matchable. Full name only:
+    # 24 of 327 instructors share a last name (two Lees, two Mulders, two
+    # Smiths, etc.), so last-name-only matching would be ambiguous and is
+    # deliberately not supported.
+    all_rows = collection.get(include=["metadatas"])
+    index: dict[str, list[str]] = {}
+    for section_id, metadata in zip(all_rows["ids"], all_rows["metadatas"]):
+        raw = metadata.get("Instructors", "")
+        if not raw or raw == "TBA":
+            continue
+        for name in raw.split(";"):
+            name = name.strip()
+            if name:
+                index.setdefault(name.lower(), []).append(section_id)
+    return index
+
+
+INSTRUCTOR_INDEX = build_instructor_index()
+
+
+def find_instructor_matches(question: str) -> list:
+    q_lower = question.lower()
+    matched_ids: list[str] = []
+    for name, section_ids in INSTRUCTOR_INDEX.items():
+        if name in q_lower:
+            matched_ids.extend(section_ids)
+    return list(dict.fromkeys(matched_ids))  # dedupe, preserve order
+
+
 class Question(BaseModel):
     question: str
 
@@ -57,16 +90,34 @@ def health():
 
 @app.post("/ask")
 def ask(q: Question):
-    # Known limitation: retrieval is pure semantic similarity over
-    # title+description text. Structured lookups (exact instructor name,
-    # exact meeting day/time) aren't reliable, since those fields aren't
-    # part of what's embedded — verified during Week 2 testing (e.g. an
-    # instructor-name query missed a section that literally matched).
-    # Content/topic questions are unaffected. See README for the planned
-    # hybrid-retrieval fix.
+    # Week 2: pure semantic similarity over title+description text.
+    # Week 3: instructor-name queries are now handled correctly (see
+    # find_instructor_matches) since exact instructor strings aren't part
+    # of the embedded text and semantic search alone missed them.
+    # Still open: exact meeting-day/time queries ("classes on Monday
+    # afternoon") — parsing natural-language day/time references is a
+    # fuzzier problem than name matching and is deliberately out of scope
+    # for this pass.
+    instructor_matches = find_instructor_matches(q.question)
+
     query_vector = embed_question(q.question)
-    results = collection.query(query_embeddings=[query_vector], n_results=TOP_K)
-    retrieved = results["metadatas"][0]
+    semantic_results = collection.query(query_embeddings=[query_vector], n_results=TOP_K)
+    semantic_ids = semantic_results["ids"][0]
+    semantic_metadatas = semantic_results["metadatas"][0]
+
+    if instructor_matches:
+        exact = collection.get(ids=instructor_matches, include=["metadatas"])
+        retrieved = list(exact["metadatas"])
+        exact_id_set = set(instructor_matches)
+        for section_id, metadata in zip(semantic_ids, semantic_metadatas):
+            if section_id not in exact_id_set and len(retrieved) < TOP_K:
+                retrieved.append(metadata)
+        print(
+            f"--- HYBRID: {len(exact['metadatas'])} exact instructor match(es), "
+            f"{len(retrieved)} total sections ---"
+        )
+    else:
+        retrieved = semantic_metadatas
 
     catalog = "\n\n".join(format_section(m) for m in retrieved)
 
@@ -81,7 +132,7 @@ def ask(q: Question):
 
     print(
         f"--- PROMPT SENT TO GEMINI: {len(prompt)} characters, "
-        f"{TOP_K} sections retrieved (was ~108,000 chars for the full catalog) ---"
+        f"{len(retrieved)} sections retrieved ---"
     )
 
     response = client.models.generate_content(
