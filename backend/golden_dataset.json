@@ -1,0 +1,691 @@
+[
+  {
+    "id": "sem-01",
+    "category": "semantic",
+    "question": "What AI-related classes are offered?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116655"
+    ],
+    "expected_facts": [
+      "CS 300",
+      "Human-Centered AI",
+      "Ken Arnold"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-02",
+    "category": "semantic",
+    "question": "I want an intro course on applied computing.",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116642",
+      "COURSE_SECTION-3-116643"
+    ],
+    "expected_facts": [
+      "CS 104",
+      "Applied Computing",
+      "Keith Vander Linden"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-03",
+    "category": "semantic",
+    "question": "Any courses about building websites or interactive media?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116641"
+    ],
+    "expected_facts": [
+      "CS 100",
+      "Creating Interactive Web Media",
+      "David Meyer"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-04",
+    "category": "semantic",
+    "question": "Looking for a scientific computation and modeling course.",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116644"
+    ],
+    "expected_facts": [
+      "CS 106",
+      "Scientific Computation",
+      "Ken Arnold"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-05",
+    "category": "semantic",
+    "question": "What's a good intro engineering design class?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116808",
+      "COURSE_SECTION-3-116809",
+      "COURSE_SECTION-3-116810",
+      "COURSE_SECTION-3-116811"
+    ],
+    "expected_facts": [
+      "ENGR 101",
+      "Introduction to Engineering Design"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-06",
+    "category": "semantic",
+    "question": "Is there a lab for engineering graphics or drawing?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116840"
+    ],
+    "expected_facts": [
+      "ENGR 101L",
+      "Engineering Graphical Communication Lab",
+      "Frederick Haan"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-07",
+    "category": "semantic",
+    "question": "I need a human anatomy and physiology class.",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117561"
+    ],
+    "expected_facts": [
+      "BIOL 115",
+      "Human Anatomy and Physiology",
+      "Julienne Brock"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-08",
+    "category": "semantic",
+    "question": "What's a good intro biology class covering living systems?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117562"
+    ],
+    "expected_facts": [
+      "BIOL 123",
+      "Living Systems",
+      "Keith Grasman"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-09",
+    "category": "semantic",
+    "question": "Cell biology and genetics course, ideally with a lab.",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117563",
+      "COURSE_SECTION-3-117583"
+    ],
+    "expected_facts": [
+      "BIOL 141",
+      "Cell Biology and Genetics",
+      "Amy Wilstermann",
+      "Dave Warners"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-10",
+    "category": "semantic",
+    "question": "Any classes on ecology and evolution?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117564"
+    ],
+    "expected_facts": [
+      "BIOL 160",
+      "Ecological and Evolutionary Systems",
+      "Dave Warners"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-11",
+    "category": "semantic",
+    "question": "I want general chemistry for beginners.",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116918",
+      "COURSE_SECTION-3-116919",
+      "COURSE_SECTION-3-116920",
+      "COURSE_SECTION-3-116921",
+      "COURSE_SECTION-3-116922"
+    ],
+    "expected_facts": [
+      "CHEM 101",
+      "General Chemistry I"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-12",
+    "category": "semantic",
+    "question": "What's the intro psychology course like?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116400",
+      "COURSE_SECTION-3-116401",
+      "COURSE_SECTION-3-116402",
+      "COURSE_SECTION-3-116403",
+      "COURSE_SECTION-3-116399"
+    ],
+    "expected_facts": [
+      "PSYC 151",
+      "Introductory Psychology"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-13",
+    "category": "semantic",
+    "question": "A philosophy course about disability and advocacy?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117402",
+      "COURSE_SECTION-3-117403"
+    ],
+    "expected_facts": [
+      "PHIL 137",
+      "Disability, Community, and Advocacy",
+      "Kevin Timpe"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-14",
+    "category": "semantic",
+    "question": "Intro philosophy course on fundamental questions.",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117405",
+      "COURSE_SECTION-3-117406"
+    ],
+    "expected_facts": [
+      "PHIL 153",
+      "Fundamental Questions in Philosophy"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-15",
+    "category": "semantic",
+    "question": "Something called Philosophical Explorations?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117404"
+    ],
+    "expected_facts": [
+      "PHIL 151",
+      "Philosophical Explorations",
+      "Jeff Snapper"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-16",
+    "category": "semantic",
+    "question": "I want an intro economics course.",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117433",
+      "COURSE_SECTION-3-117434",
+      "COURSE_SECTION-3-117432",
+      "COURSE_SECTION-3-117436",
+      "COURSE_SECTION-3-117435"
+    ],
+    "expected_facts": [
+      "ECON 191",
+      "Introduction to Economics"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-17",
+    "category": "semantic",
+    "question": "Private guitar lessons?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-118214"
+    ],
+    "expected_facts": [
+      "MUSC 030-I",
+      "Non-Credit Private Lessons: Guitar"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-18",
+    "category": "semantic",
+    "question": "Private oboe lessons?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-118217"
+    ],
+    "expected_facts": [
+      "MUSC 030-L",
+      "Non-Credit Private Lessons: Oboe",
+      "Tiffany Engle"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-19",
+    "category": "semantic",
+    "question": "Private lessons on harpsichord or organ?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-118216",
+      "COURSE_SECTION-3-118218"
+    ],
+    "expected_facts": [
+      "Harpsichord",
+      "Organ",
+      "Forrest Wakeman"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "sem-20",
+    "category": "semantic",
+    "question": "Is there an art class on visual culture?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-118406"
+    ],
+    "expected_facts": [
+      "ART 153",
+      "Visual Culture"
+    ],
+    "graded": true,
+    "notes": "Week 2 semantic-retrieval path."
+  },
+  {
+    "id": "instr-01",
+    "category": "instructor",
+    "question": "What does Keith Vander Linden teach?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116642",
+      "COURSE_SECTION-3-116643"
+    ],
+    "expected_facts": [
+      "Keith Vander Linden",
+      "CS 104",
+      "Applied Computing"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-02",
+    "category": "instructor",
+    "question": "Which classes does Ken Arnold teach?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116644",
+      "COURSE_SECTION-3-116655"
+    ],
+    "expected_facts": [
+      "Ken Arnold",
+      "CS 106",
+      "CS 300"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-03",
+    "category": "instructor",
+    "question": "What courses does Dave Warners teach?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117583",
+      "COURSE_SECTION-3-117564"
+    ],
+    "expected_facts": [
+      "Dave Warners",
+      "BIOL 141L",
+      "BIOL 160"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-04",
+    "category": "instructor",
+    "question": "I'd like a class taught by Kevin Timpe.",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117402",
+      "COURSE_SECTION-3-117403"
+    ],
+    "expected_facts": [
+      "Kevin Timpe",
+      "PHIL 137"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-05",
+    "category": "instructor",
+    "question": "Does Douglas Vander Griend teach General Chemistry?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116920"
+    ],
+    "expected_facts": [
+      "Douglas Vander Griend",
+      "CHEM 101"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-06",
+    "category": "instructor",
+    "question": "What sections does Vladimir Snurenco teach?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-117432",
+      "COURSE_SECTION-3-117435"
+    ],
+    "expected_facts": [
+      "Vladimir Snurenco",
+      "ECON 191"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-07",
+    "category": "instructor",
+    "question": "Who is Tiffany Engle and what does she teach?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-118217"
+    ],
+    "expected_facts": [
+      "Tiffany Engle",
+      "Oboe"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-08",
+    "category": "instructor",
+    "question": "What does Forrest Wakeman teach?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-118216",
+      "COURSE_SECTION-3-118218"
+    ],
+    "expected_facts": [
+      "Forrest Wakeman",
+      "Harpsichord",
+      "Organ"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-09",
+    "category": "instructor",
+    "question": "Which CS 104 lab section does Chris Wieringa teach?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116661",
+      "COURSE_SECTION-3-116663"
+    ],
+    "expected_facts": [
+      "Chris Wieringa",
+      "CS 104L"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-10",
+    "category": "instructor",
+    "question": "Which CS 104 lab section does Fernando Pasquini Santos teach?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116662",
+      "COURSE_SECTION-3-116664"
+    ],
+    "expected_facts": [
+      "Fernando Pasquini Santos",
+      "CS 104L"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-11",
+    "category": "instructor",
+    "question": "Is Daniel Kroeze teaching anything this fall?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-118543"
+    ],
+    "expected_facts": [
+      "Daniel Kroeze",
+      "ML 101"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-12",
+    "category": "instructor",
+    "question": "What about Dale Cooper \u2014 same course as Daniel Kroeze?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-118543"
+    ],
+    "expected_facts": [
+      "Dale Cooper",
+      "ML 101",
+      "co-taught"
+    ],
+    "graded": true,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "instr-13",
+    "category": "instructor",
+    "question": "I want a class with a Professor Snyder.",
+    "expected_section_ids": [],
+    "expected_facts": [
+      "Snyder is ambiguous: Noel Snyder, Debra Snyder, and Peter Snyder all teach different sections; the system only matches full names, so a last-name-only query is expected to fall through to pure semantic search rather than resolve to any one of them."
+    ],
+    "graded": false,
+    "notes": "Week 3 hybrid-retrieval path."
+  },
+  {
+    "id": "know-01",
+    "category": "known_limitation",
+    "question": "What classes meet on Monday afternoons?",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "know-02",
+    "category": "known_limitation",
+    "question": "Are there any morning classes before 9am?",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "know-03",
+    "category": "known_limitation",
+    "question": "Show me classes that meet on Tuesday and Thursday only.",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "know-04",
+    "category": "known_limitation",
+    "question": "What courses are offered in the evening, after 6pm?",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "know-05",
+    "category": "known_limitation",
+    "question": "I need a class that doesn't meet on Fridays.",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "know-06",
+    "category": "known_limitation",
+    "question": "Which sections meet MWF at 11am?",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "know-07",
+    "category": "known_limitation",
+    "question": "Do any CS classes meet on Wednesdays only?",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "know-08",
+    "category": "known_limitation",
+    "question": "I want a class with no Friday meetings.",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "know-09",
+    "category": "known_limitation",
+    "question": "What time does Introduction to Engineering Design meet?",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "know-10",
+    "category": "known_limitation",
+    "question": "Which chemistry sections are in the afternoon?",
+    "expected_section_ids": [],
+    "expected_facts": [],
+    "graded": false,
+    "notes": "Documented gap: day/time isn't embedded or parsed at query time."
+  },
+  {
+    "id": "edge-01",
+    "category": "edge_case",
+    "question": "Who teaches CHEM 101-A?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116918"
+    ],
+    "expected_facts": [
+      "Instructors field is absent for this row; the answer should say the instructor isn't listed / TBA, not literally print \"None\"."
+    ],
+    "graded": true,
+    "notes": "Data-quality / robustness check."
+  },
+  {
+    "id": "edge-02",
+    "category": "edge_case",
+    "question": "When does Tiffany Engle's oboe lesson meet?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-118217"
+    ],
+    "expected_facts": [
+      "MeetingPatterns is absent for this row; the answer should say no meeting time is listed, not fabricate a time."
+    ],
+    "graded": true,
+    "notes": "Data-quality / robustness check."
+  },
+  {
+    "id": "edge-03",
+    "category": "edge_case",
+    "question": "What does Professor Zzyzx Nonexistent teach?",
+    "expected_section_ids": [],
+    "expected_facts": [
+      "No instructor by this name exists in the catalog; the answer should say so rather than inventing a course."
+    ],
+    "graded": true,
+    "notes": "Data-quality / robustness check."
+  },
+  {
+    "id": "edge-04",
+    "category": "edge_case",
+    "question": "Does Calvin offer a law school program?",
+    "expected_section_ids": [],
+    "expected_facts": [
+      "Not in the catalog; the answer should not hallucinate a law-school course from unrelated retrieved sections."
+    ],
+    "graded": true,
+    "notes": "Data-quality / robustness check."
+  },
+  {
+    "id": "edge-05",
+    "category": "edge_case",
+    "question": "What sections of General Chemistry I are open?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116918",
+      "COURSE_SECTION-3-116919",
+      "COURSE_SECTION-3-116920",
+      "COURSE_SECTION-3-116921",
+      "COURSE_SECTION-3-116922"
+    ],
+    "expected_facts": [
+      "Should surface multiple CHEM 101 sections, not just one."
+    ],
+    "graded": true,
+    "notes": "Data-quality / robustness check."
+  },
+  {
+    "id": "edge-06",
+    "category": "edge_case",
+    "question": "Who teaches the CS 104 lab sections?",
+    "expected_section_ids": [
+      "COURSE_SECTION-3-116661",
+      "COURSE_SECTION-3-116662",
+      "COURSE_SECTION-3-116663",
+      "COURSE_SECTION-3-116664"
+    ],
+    "expected_facts": [
+      "Chris Wieringa",
+      "Fernando Pasquini Santos"
+    ],
+    "graded": true,
+    "notes": "Data-quality / robustness check."
+  },
+  {
+    "id": "edge-07",
+    "category": "edge_case",
+    "question": "Any good classes?",
+    "expected_section_ids": [],
+    "expected_facts": [
+      "Deliberately vague query; system should return a coherent answer without erroring, not a specific correctness claim."
+    ],
+    "graded": false,
+    "notes": "Data-quality / robustness check."
+  }
+]

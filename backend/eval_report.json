@@ -1,0 +1,874 @@
+[
+  {
+    "id": "sem-01",
+    "category": "semantic",
+    "graded": true,
+    "question": "What AI-related classes are offered?",
+    "answer": "Hi there! I would be happy to help you find AI-related classes for your schedule. Based on our current course offerings, we have two classes that explicitly focus on or discuss artificial intelligence:\n\n1. **CS 300-A | Special Topics: Human-Centered AI**\n   * **Instructor:** Ken Arnold\n   * **Meeting Time:** MWF | 11:00 AM - 12:05 PM (Runs from 09/02/2025 to 10/16/2025)\n   * **Description:** This course is an advanced study of selected topics of current interest in computer science, with this specific section focusing on Human-Centered AI. \n\n2. **INFO 302-A | Business Analytics Management**\n   * **Instructor:** Bernardo Hargous\n   * **Meeting Time:** TTH | 8:00 AM - 9:40 AM (Runs from 09/02/2025 to 12/18/2025)\n   * **Description:** While this course primarily focuses on corporate governance, systems analysis, and decision-making models in analytics, students will also explore the implications of \"shalom\" in technology ethics as it pertains specifically to artificial intelligence and technology as an expression of the values of its creators.\n\nLet me know if you have any questions about these sections or if you need help looking at other classes!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified the required course and instructor, and accurately included another relevant course that discusses artificial intelligence without any fabrication."
+    }
+  },
+  {
+    "id": "sem-02",
+    "category": "semantic",
+    "graded": true,
+    "question": "I want an intro course on applied computing.",
+    "answer": "Hi there! I would be absolutely delighted to help you find the right class. \n\nIf you are looking for an introductory course on applied computing, **CS 104 (Applied Computing)** is the perfect fit! This course is designed as an introduction to problem solving and program design for engineering students. You'll cover great topics like algorithmic thinking, problem decomposition, functions, control structures, and simple data structures. \n\nSince this course is a half-semester class, we have a few different lecture and lab options depending on which part of the semester you'd like to take it:\n\n### **Option 1: First Half of the Semester (09/02/2025 - 10/16/2025)**\n\n*   **Lecture Section:** \n    *   **CS 104-A** | Keith Vander Linden | MWF | 12:15 PM - 1:20 PM\n*   **Associated Labs (Choose one):**\n    *   **CS 104L-A** | Chris Wieringa | Tuesdays | 12:15 PM - 1:55 PM\n    *   **CS 104L-B** | Fernando Pasquini Santos | Tuesdays | 2:10 PM - 3:50 PM\n\n---\n\n### **Option 2: Second Half of the Semester (10/27/2025 - 12/18/2025)**\n\n*   **Lecture Section:** \n    *   **CS 104-B** | Keith Vander Linden | MWF | 12:15 PM - 1:20 PM\n*   **Associated Labs (Choose one):**\n    *   **CS 104L-C** | Chris Wieringa | Tuesdays | 12:15 PM - 1:55 PM\n    *   **CS 104L-D** | Fernando Pasquini Santos | Tuesdays | 2:10 PM - 3:50 PM\n\n*Note: There is a lab fee for this course\u2014feel free to check the catalog for those specific details.*\n\nLet me know which of these options works best with your schedule, and I'll be happy to help you take the next steps to register!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified CS 104 (Applied Computing) taught by Keith Vander Linden and provided accurate details about the lecture and lab options without any fabrication."
+    }
+  },
+  {
+    "id": "sem-03",
+    "category": "semantic",
+    "graded": true,
+    "question": "Any courses about building websites or interactive media?",
+    "answer": "Hi there! I would be happy to help you find the right classes. We have two excellent courses that focus directly on building websites and creating interactive media:\n\n**1. CS 100-A | Creating Interactive Web Media**\n*   **Instructor:** David Meyer\n*   **Meeting Time:** TTH | 10:20 AM - 12:00 PM (09/02/2025 - 12/18/2025)\n*   **Description:** This course is an introduction to creating interactive media for the World Wide Web. You will cover markup languages, stylesheets, page layout and design principles, scripting, animation, multimedia, World Wide Web history, and related social and ethical issues. *(Note: There is a lab fee associated with this course).*\n\n**2. CS 336-A | Web Development**\n*   **Instructor:** Victor Norman\n*   **Meeting Time:** MWF | 9:15 AM - 10:20 AM (09/02/2025 - 12/18/2025)\n*   **Description:** This course offers an introduction to software development for websites using common platforms and frameworks. In addition to website development, topics include common vulnerabilities and defense strategies, web user interfaces and usability, and the practical, legal, and ethical issues involved in building and administering websites. *(Note: There is a lab fee associated with this course).*\n\nLet me know if you would like more details on either of these options or help with putting together your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified the required course CS 100, included all minimum required facts, and provided accurate details supported by the retrieved data."
+    }
+  },
+  {
+    "id": "sem-04",
+    "category": "semantic",
+    "graded": true,
+    "question": "Looking for a scientific computation and modeling course.",
+    "answer": "Hello! I would be happy to help you find the perfect course for your interests. \n\nAt Calvin University, we have a fantastic introductory course and its corresponding lab that focus specifically on scientific computation and modeling! Here are the details:\n\n### **CS 106-A | Introduction to Scientific Computation And Modeling**\n* **Instructor:** Ken Arnold\n* **Meeting Time:** MWF | 2:45 PM - 3:50 PM (09/02/2025 - 12/18/2025)\n* **Description:** This course is an introduction to computing as a tool for science, emphasizing programming as a methodology for problem solving, quantitative data analysis, and simulation in science and mathematics. This includes in silico modeling of natural phenomena, precise specification of a problem, design of its algorithmic solution, testing, debugging, and maintaining software, using scripting to increase scientific productivity, and the use of existing scientific software libraries. It provides an alternative to CS 108 by focusing on scientific examples and applications. *(Note: There is a lab fee\u2014see catalog for details).*\n\n### **CS 106L-A | Introduction to Scientific Computation And Modeling Lab**\n* **Instructor:** Ken Arnold\n* **Meeting Time:** TH | 10:20 AM - 12:00 PM (09/02/2025 - 12/18/2025)\n* **Description:** This is the hands-on laboratory section that accompanies the CS 106-A lecture course.\n\nPlease let me know if you have any questions or if you'd like help adding these to your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified CS 106, including the required facts and providing accurate details supported by the retrieved data."
+    }
+  },
+  {
+    "id": "sem-06",
+    "category": "semantic",
+    "graded": true,
+    "question": "Is there a lab for engineering graphics or drawing?",
+    "answer": "Hi there! I would be happy to help you with that. \n\nYes, we have several sections available for the **Engineering Graphical Communication Lab (ENGR 101L)**! This lab course focuses on techniques and computer software tools used for visualization and engineering communication. In this lab, you will study graphical techniques for spatial analysis, including orthographic projection, free-hand sketching, pictorial representation, basic dimensioning, and 3-D modeling. \n\nHere are the lab sections you can choose from:\n\n*   **ENGR 101L-A** | Instructor: Frederick Haan | Tuesdays | 8:00 AM - 10:50 AM\n*   **ENGR 101L-B** | Instructor: Renard Tubergen | Tuesdays | 11:15 AM - 2:05 PM\n*   **ENGR 101L-C** | Instructor: Frederick Haan | Tuesdays | 2:30 PM - 5:20 PM\n*   **ENGR 101L-D** | Instructor: Julie Wildschut | Thursdays | 8:00 AM - 10:50 AM\n*   **ENGR 101L-E** | Instructor: Frederick Haan | Thursdays | 2:30 PM - 5:20 PM\n\n*(Note: While we do offer drawing courses like Introduction to Drawing [ARTS 250-A / ARTS 250-B] and Advanced Drawing [ARTS 350-A], they are formatted as standard courses rather than labs).*\n\nLet me know if you need help choosing a section that fits your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified the course ENGR 101L, its title, and Frederick Haan, while accurately listing all available sections without any fabrication."
+    }
+  },
+  {
+    "id": "sem-08",
+    "category": "semantic",
+    "graded": true,
+    "question": "What's a good intro biology class covering living systems?",
+    "answer": "Hi there! I would be happy to help you with that. \n\nBased on what you are looking for, the perfect fit is **BIOL 123-A | Living Systems**! \n\nHere are the details for this course:\n* **Instructor:** Keith Grasman\n* **Meeting Time:** MWF | 9:15 AM - 10:20 AM (09/02/2025 - 12/18/2025)\n* **Description:** In this course, you will construct a comprehensive understanding of human interactions with living systems, connecting foundational biological concepts to contemporary scientific, societal, ethical, and religious issues. You will explore topics such as:\n  * **Ecological and evolutionary systems** (climate change, biodiversity, ecosystem health, natural selection, extinction)\n  * **Human health** (nutrition, chronic and infectious diseases, allergies)\n  * **Genetics** (mutation, meiosis, heredity, race)\n  * **Stem cells** (mitosis, gene expression)\n\nThis class uses a problem-based learning approach to examine complex, real-world challenges through readings and discussions. Please note that there is a lab fee associated with this course (see the Catalog for details).\n\nLet me know if you would like help adding this to your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified BIOL 123-A \"Living Systems\" taught by Keith Grasman and accurately detailed the course information without any fabrication."
+    }
+  },
+  {
+    "id": "sem-09",
+    "category": "semantic",
+    "graded": true,
+    "question": "Cell biology and genetics course, ideally with a lab.",
+    "answer": "Hi there! I would be absolutely delighted to help you find the perfect cell biology and genetics courses for your schedule. We have some great options available for you, depending on your academic focus! \n\nHere are the paths you can take:\n\n### Option 1: Cell Biology and Genetics for the Health Sciences (BIOL 141 & BIOL 141L)\nThis is a wonderful option that directly focuses on cell biology and genetics, and it comes with a dedicated lab!\n\n*   **Lecture: BIOL 141-A | Cell Biology and Genetics for the Health Sciences**\n    *   **Instructor:** Amy Wilstermann\n    *   **Time:** MWF | 8:00 AM - 9:05 AM (09/02/2025 - 12/18/2025)\n    *   **Description:** This course covers the structures, functions, and evolution of prokaryotic and eukaryotic cells, alongside fundamental Mendelian and molecular genetics. It also introduces historical, philosophical, and biblical frameworks for studying biology.\n*   **Lab: BIOL 141L-A | Cell Biology and Genetics Lab**\n    *   **Instructor:** Dave Warners\n    *   **Time:** T | 8:00 AM - 10:50 AM (09/02/2025 - 12/18/2025)\n    *   **Description:** These lab exercises are designed to teach crucial lab skills while reinforcing cellular and molecular biology concepts. *(Note: Lab fee applies)*\n\n---\n\n### Option 2: Cellular and Genetic Systems (BIOL 161 & BIOL 161L)\nIf you are planning to major in biology (or just want a deep dive), BIOL 161 and its corequisite lab BIOL 161L are required courses that cover cellular biology, molecular biology, and genetics.\n\n**Step 1: Choose a Lecture Section**\n*   **BIOL 161-A | Cellular and Genetic Systems**\n    *   **Instructor:** David Koetje\n    *   **Time:** MWF | 8:00 AM - 9:05 AM (09/02/2025 - 12/18/2025)\n*   **BIOL 161-B | Cellular and Genetic Systems**\n    *   **Instructor:** Anding Shen\n    *   **Time:** MWF | 12:15 PM - 1:20 PM (09/02/2025 - 12/18/2025)\n    *   *Course Description:* Focuses on macromolecules, energy/metabolism, cell division, DNA replication, genetics, and gene expression.\n\n**Step 2: Choose a Corequisite Lab Section (BIOL 161L)**\n*These labs involve research projects testing the effects of cooking on nutritional/health compounds. (Note: Lab fee applies)*\n*   **BIOL 161L-A** | TBA | W | 1:30 PM - 4:20 PM\n*   **BIOL 161L-B** | William Miller | TH | 8:00 AM - 10:50 AM\n*   **BIOL 161L-C** | TBA | TH | 2:30 PM - 5:20 PM\n*   **BIOL 161L-D** | TBA | TH | 7:00 PM - 9:50 PM\n\nLet me know which of these options sounds like the best fit for you, and we can get you all set up!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly included all required facts and accurately presented the course options without any fabrications or contradictions."
+    }
+  },
+  {
+    "id": "sem-05",
+    "category": "semantic",
+    "graded": true,
+    "question": "What's a good intro engineering design class?",
+    "answer": "Hi there! I would love to help you with that. \n\nIf you are looking for a great introductory engineering design class, **ENGR 101: Introduction to Engineering Design** is the perfect fit! \n\nIn this course, you will get an introduction to the engineering design process and resource design tools through lectures, homework, mentor visits, and team meetings. You'll get to work on team projects\u2014including service learning\u2014that require creativity, engineering analysis, and computational tools. You'll also learn about technology in society, engineering ethics, library research methods, and various computer software tools.\n\nWe have four different sections of this class running from **09/02/2025 to 12/18/2025**, so you can choose the one that best fits your schedule:\n\n*   **ENGR 101-A**\n    *   **Instructor:** Monica Groenenboom\n    *   **Meeting Time:** MWF | 8:00 AM - 9:05 AM\n*   **ENGR 101-B**\n    *   **Instructor:** Samuel Adeyemo\n    *   **Meeting Time:** MWF | 9:15 AM - 10:20 AM\n*   **ENGR 101-C**\n    *   **Instructor:** Frederick Haan\n    *   **Meeting Time:** MWF | 11:00 AM - 12:05 PM\n*   **ENGR 101-D**\n    *   **Instructor:** Ken Visser\n    *   **Meeting Time:** MWF | 1:30 PM - 2:35 PM\n\nLet me know if you have any questions or need help adding one of these to your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 4,
+      "total": 4
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified ENGR 101: Introduction to Engineering Design, included all required facts, and accurately detailed the sections, instructors, times, and description without any fabrication."
+    }
+  },
+  {
+    "id": "sem-07",
+    "category": "semantic",
+    "graded": true,
+    "question": "I need a human anatomy and physiology class.",
+    "answer": "Hello! I would be happy to help you find the perfect course. \n\nDepending on your academic goals and how in-depth you need to go, we have a few great options for you at Calvin University:\n\n### Option 1: A Combined Anatomy & Physiology Course\nIf you are looking for a single course that covers both subjects, you should consider:\n* **BIOL 115-A | Essentials of Human Anatomy and Physiology**\n  * **Instructor:** Julienne Brock\n  * **Meeting Time:** MWF | 11:00 AM - 1:00 PM (09/02/2025 - 12/18/2025)\n  * **Description:** This course covers major biological theories applied to humans. You will study cells, genetics, ecology, and evolution through the lens of human anatomy, physiology, development, and health. This course includes three two-hour sessions weekly (covering both lectures and laboratory activities) and has an associated lab fee.\n\n---\n\n### Option 2: Separate Human Anatomy and Human Physiology Courses\nIf your program requires you to take separate, dedicated courses for anatomy and physiology, you can take these courses and their corresponding labs:\n\n#### **1. Human Anatomy (Lecture & Lab)**\n* **BIOL 205-A | Human Anatomy** | Ryan Bebej | MWF | 9:15 AM - 10:20 AM\n* **BIOL 205-B | Human Anatomy** | Ryan Bebej | MWF | 12:15 PM - 1:20 PM\n  * *Description:* Examines the structure of human organ systems (integumentary, skeletal, muscular, nervous, endocrine, cardiovascular, lymphatic, respiratory, digestive, urinary, and reproductive), including histology and developmental biology.\n* **Anatomy Labs (BIOL 205L):** *Note: These focus on gross anatomy, skeletal study, and mammal dissection. There is an associated lab fee.*\n  * **BIOL 205L-A** | Ryan Bebej | T | 8:00 AM - 10:50 AM\n  * **BIOL 205L-B** | Crystal Barrett | T | 11:15 AM - 2:05 PM\n  * **BIOL 205L-C** | TBA | T | 7:00 PM - 9:50 PM\n  * **BIOL 205L-D** | Crystal Barrett | TH | 2:30 PM - 5:20 PM\n  * **BIOL 205L-E** | Kevin Kane | TH | 8:00 AM - 10:50 AM\n  * **BIOL 205L-F** | TBA | TH | 7:00 PM - 9:50 PM\n\n#### **2. Human Physiology (Lecture & Lab)**\n* **BIOL 206-A | Human Physiology** | Crystal Barrett | MWF | 11:00 AM - 12:05 PM\n* **BIOL 206-B | Human Physiology** | Crystal Barrett | MWF | 1:30 PM - 2:35 PM\n  * *Description:* An introduction to the essential functions of the human body, including how tissues and organs operate and work together.\n* **Physiology Labs (BIOL 206L):** *Note: Students use established laboratory methods to investigate physiological techniques.*\n  * **BIOL 206L-A** | TBA | T | 11:15 AM - 2:05 PM\n  * **BIOL 206L-B** | TBA | T | 2:30 PM - 5:20 PM\n  * **BIOL 206L-D** | TBA | TH | 11:15 AM - 2:05 PM\n\n---\n\n### Option 3: Advanced Physiology\nIf you have already taken introductory courses and need an upper-level class:\n* **BIOL 306-A | Advanced Human Physiology and Pathophysiology**\n  * **Instructor:** Erica Boldenow\n  * **Meeting Time:** MWF | 9:15 AM - 10:20 AM (09/02/2025 - 12/18/2025)\n  * **Description:** This course covers normal physiological mechanisms at the biochemical/cellular level, how those functions change during disease (pathophysiology), and the impact on overall health. \n\nLet me know which of these options sounds like the best fit for your schedule and major!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly included all required facts and accurately represented the course details from the retrieved data without any fabrications."
+    }
+  },
+  {
+    "id": "sem-10",
+    "category": "semantic",
+    "graded": true,
+    "question": "Any classes on ecology and evolution?",
+    "answer": "Hi there! I would be happy to help you find some courses on ecology and evolution here at Calvin University. Based on our current course offerings, we have several excellent options:\n\n### 1. **Ecological and Evolutionary Systems** (Lecture)\nThis course covers the basic concepts in ecological and evolutionary biology, including population ecology and genetics, community ecology, evolutionary processes and speciation, phylogenetics, adaptive biology, ecosystem dynamics, environmental degradation, environmental sustainability, and biodiversity. \n*   **BIOL 160-A** \n    *   **Instructor:** Dave Warners\n    *   **Meeting Time:** MWF | 11:00 AM - 12:05 PM (09/02/2025 - 12/18/2025)\n*   **BIOL 160-N** \n    *   **Instructor:** John Wertz\n    *   **Meeting Time:** MWF | 11:00 AM - 1:00 PM (09/02/2025 - 12/18/2025)\n\n### 2. **Ecological and Evolutionary Systems Lab** (Lab)\nThese laboratory sections accompany the study of ecological and evolutionary systems, allowing students to use prevailing methodologies to gain insights into contemporary ecological, evolutionary, and organismal biology research. \n*   **BIOL 160L-A**\n    *   **Instructor:** Keith Grasman\n    *   **Meeting Time:** T | 8:00 AM - 10:50 AM (09/02/2025 - 12/18/2025)\n*   **BIOL 160L-B**\n    *   **Instructor:** William Miller\n    *   **Meeting Time:** T | 11:15 AM - 2:05 PM (09/02/2025 - 12/18/2025)\n\n### 3. **Ecosystem Ecology and Management** (Lecture & Lab)\nThis course provides a detailed study of ecosystem structure and function, with emphasis on local ecosystems, managing and restoring ecosystems, biodiversity, endangered species management, conservation genetics, population dynamics, and landscape ecology.\n*   **BIOL 345-A (Lecture)**\n    *   **Instructor:** Keith Grasman\n    *   **Meeting Time:** MWF | 11:00 AM - 12:05 PM (09/02/2025 - 12/18/2025)\n*   **BIOL 345L-A (Lab)**\n    *   **Instructor:** Keith Grasman\n    *   **Meeting Time:** M | 1:30 PM - 4:20 PM (09/02/2025 - 12/18/2025)\n    *   *Description:* Students conduct a semester-long project comprising a data-driven assessment of human impacts on and/or ecological characteristics of a local ecosystem.\n\n### 4. **Living Systems**\n*   **BIOL 123-A**\n    *   **Instructor:** Keith Grasman\n    *   **Meeting Time:** MWF | 9:15 AM - 10:20 AM (09/02/2025 - 12/18/2025)\n    *   *Description:* This course connects biological concepts to contemporary issues. Part of the curriculum covers ecological and evolutionary systems, specifically highlighting climate change, biodiversity, ecosystem health, natural selection, and extinction.\n\n### 5. **Essentials of Human Anatomy and Physiology**\n*   **BIOL 115-A**\n    *   **Instructor:** Julienne Brock\n    *   **Meeting Time:** MWF | 11:00 AM - 1:00 PM (09/02/2025 - 12/18/2025)\n    *   *Description:* While focused on the human body, this course introduces major theories of biology, including concepts of cells, genetics, **ecology, and evolution** through the study of human anatomy, physiology, and health.\n\nLet me know if you would like more details on any of these options or help with putting together your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately included all required facts and correctly detailed the courses, instructors, and meeting times without any fabrication."
+    }
+  },
+  {
+    "id": "sem-11",
+    "category": "semantic",
+    "graded": true,
+    "question": "I want general chemistry for beginners.",
+    "answer": "Hi there! I would be happy to help you find the right chemistry class to start with here at Calvin University! \n\nFor beginners looking for general chemistry, **CHEM 101: General Chemistry I** is the perfect place to start. This course covers the basic principles of chemistry, including the laws of chemical combination, states of matter, atomic structure, and chemical bonding. \n\nThe prerequisite for this course is **one year of high-school chemistry or permission of the instructor**. Additionally, you will need to take the corequisite lab course, **CHEM 101L-D (General Chemistry I Lab)**, which meets on Thursdays from 8:00 AM to 10:50 AM with an instructor to be announced (TBA).\n\nHere are the lecture sections available for **CHEM 101** (all running from 09/02/2025 to 12/18/2025):\n\n*   **CHEM 101-A** | Instructor: TBA | MWF | 8:00 AM - 9:05 AM\n*   **CHEM 101-B** | Instructor: TBA | MWF | 9:15 AM - 10:20 AM\n*   **CHEM 101-C** | Instructor: Douglas Vander Griend | MWF | 11:00 AM - 12:05 PM\n*   **CHEM 101-D** | Instructor: Herb Fynewever | MWF | 12:15 PM - 1:20 PM\n*   **CHEM 101-E** | Instructor: Laura Westrate | MWF | 1:30 PM - 2:35 PM\n*   **CHEM 101-F** | Instructor: Herb Fynewever | MWF | 2:45 PM - 3:50 PM\n*   **CHEM 101-O** | Instructor: TBA | No meeting time listed\n\nLet me know if you have any questions about these times or if you'd like help registering!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 5,
+      "total": 5
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately included all required facts and correctly detailed the course descriptions, prerequisites, lab information, and section schedules without any fabrication."
+    }
+  },
+  {
+    "id": "sem-12",
+    "category": "semantic",
+    "graded": true,
+    "question": "What's the intro psychology course like?",
+    "answer": "Hi there! I would be absolutely delighted to help you learn more about our introductory psychology course, **PSYC 151: Introductory Psychology: Perspectives on The Self**. \n\nIt is a wonderful, foundational class that provides an introduction to psychology's study of the biological, affective, cognitive, and social dimensions of human identity and behavior. \n\nHere is a look at what the course is like:\n* **Fascinating Topics:** You will explore issues such as perception and consciousness, learning and memory, motivation and emotion, personality development and social interaction, as well as stress and adjustment.\n* **Research & Application:** You will be introduced to the methods of psychological research and see how psychology plays a role in scientific endeavors and real-world human application.\n* **Interactive Learning:** Through assigned reading and writing, alongside active classroom discussions, you will learn how to critically weigh alternative claims regarding human behavior and develop a deep appreciation for a holistic approach to the study of persons.\n\nWe have several great sections available for the Fall 2025 semester (09/02/2025 - 12/18/2025). Here are your options so you can find the perfect fit for your schedule:\n\n* **PSYC 151-A** | Tami Rigterink | MWF | 11:00 AM - 12:05 PM\n* **PSYC 151-B** | Tami Rigterink | MWF | 12:15 PM - 1:20 PM\n* **PSYC 151-C** | Anthony Rose | TTH | 8:00 AM - 9:40 AM\n* **PSYC 151-D** | Anthony Rose | TTH | 10:20 AM - 12:00 PM\n* **PSYC 151-E** | Julie Woltil | TTH | 2:10 PM - 3:50 PM\n\nLet me know if you have any other questions or if you'd like help adding one of these sections to your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 5,
+      "total": 5
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot's answer accurately includes all required facts and correctly details the course description, sections, instructors, and meeting times from the retrieved data without any fabrication."
+    }
+  },
+  {
+    "id": "sem-13",
+    "category": "semantic",
+    "graded": true,
+    "question": "A philosophy course about disability and advocacy?",
+    "answer": "Hi there! I would be happy to help you with that. \n\nWe actually have two sections of a wonderful course that fits exactly what you are looking for! It is taught by Professor Kevin Timpe. Here are the details for the sections available:\n\n### **PHIL 137-A | Disability, Community, and Advocacy**\n* **Instructor:** Kevin Timpe\n* **Meeting Time:** MWF | 9:15 AM - 10:20 AM\n* **Dates:** 09/02/2025 - 10/16/2025\n* **Description:** This course explores the philosophy, nature, history, and social dynamics of disability. It introduces students to the disability rights movement, the concept of \"disability pride,\" and aspects of disability culture. You will learn how individuals with disabilities have actively campaigned for civil rights and legal protections, and how that struggle continues to shape communities. The course focuses on how individuals with disabilities have been systematically excluded and how inclusion is beneficial for a community itself, prompting critical reflection on how we should view and build our communities.\n\n### **PHIL 137-B | Disability, Community, and Advocacy**\n* **Instructor:** Kevin Timpe\n* **Meeting Time:** MWF | 9:15 AM - 10:20 AM\n* **Dates:** 10/27/2025 - 12/18/2025\n* **Description:** This section covers the exact same course content and topics as Section A, but runs later in the semester.\n\nLet me know if you need help adding either of these to your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified the course, sections, instructor, meeting times, dates, and descriptions without any fabrication or omission of required facts."
+    }
+  },
+  {
+    "id": "sem-14",
+    "category": "semantic",
+    "graded": true,
+    "question": "Intro philosophy course on fundamental questions.",
+    "answer": "Hi there! I would be absolutely delighted to help you find the perfect introductory philosophy course. \n\nAt Calvin, we have a couple of great introductory options that focus on fundamental questions. Here are the sections available for you to choose from:\n\n### Option 1: **PHIL 153 - Fundamental Questions in Philosophy**\nThis course is a wonderful introduction to fundamental questions about God, the world, and human life, and how we know about them. You'll study historically significant texts (primarily from the Western philosophical tradition) and focus on philosophical reflection, constructing arguments, writing clearly, and engaging in faith-based inquiry. \n\nWe have four different sections of this course available:\n\n*   **PHIL 153-A** \n    *   **Instructor:** Kevin Corcoran\n    *   **Meeting Time:** Tuesdays & Thursdays (TTH) | 8:00 AM - 9:40 AM\n    *   **Dates:** 09/02/2025 - 12/18/2025\n*   **PHIL 153-B** \n    *   **Instructor:** Matt Halteman\n    *   **Meeting Time:** Mondays, Wednesdays, & Fridays (MWF) | 11:00 AM - 12:05 PM\n    *   **Dates:** 09/02/2025 - 12/18/2025\n*   **PHIL 153-C** \n    *   **Instructor:** Kevin Corcoran\n    *   **Meeting Time:** Tuesdays & Thursdays (TTH) | 12:15 PM - 1:55 PM\n    *   **Dates:** 09/02/2025 - 12/18/2025\n*   **PHIL 153-D** \n    *   **Instructor:** Joe Shin\n    *   **Meeting Time:** Tuesdays & Thursdays (TTH) | 12:15 PM - 1:55 PM\n    *   **Dates:** 09/02/2025 - 12/18/2025\n\n---\n\n### Option 2: **PHIL 151-A - Philosophical Explorations**\nIf you are looking for a shorter introduction, this is a brief, half-semester course. It covers fundamental questions about the \"good life,\" how to make our lives meaningful, what justifies our beliefs, and our responsibilities to others. It also emphasizes philosophical discussion, writing, and faith-based inquiry.\n\n*   **Section:** PHIL 151-A\n*   **Instructor:** Jeff Snapper\n*   **Meeting Time:** Tuesdays & Thursdays (TTH) | 8:00 AM - 9:40 AM\n*   **Dates:** 10/27/2025 - 12/18/2025 (Second half of the semester)\n\nLet me know if you have any questions about these options or if you'd like help registering!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately provided all required facts and correctly detailed the course sections, instructors, times, and descriptions from the retrieved data without any fabrications."
+    }
+  },
+  {
+    "id": "sem-15",
+    "category": "semantic",
+    "graded": true,
+    "question": "Something called Philosophical Explorations?",
+    "answer": "Hi there! I would be happy to help you with that. Yes, we have a great course called **Philosophical Explorations**! \n\nHere are all the details for this section:\n\n* **Course Code:** PHIL 151-A\n* **Instructor:** Jeff Snapper\n* **Meeting Time:** Tuesdays and Thursdays (TTH) | 8:00 AM - 9:40 AM\n* **Dates:** October 27, 2025 - December 18, 2025\n* **Description:** This course offers a brief introduction to fundamental questions about the good life and how to make our lives meaningful. You will explore issues such as what justifies our beliefs and what responsibilities we have to others. The class emphasizes philosophical reflection, constructing and evaluating arguments, reading and interpreting philosophical texts, writing clear expository prose, and engaging in faith-oriented and faith-based inquiry to help you respond to central issues facing contemporary society.\n\nLet me know if you have any questions about this class or if you'd like help adding it to your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot's answer is completely accurate, contains no fabrications, and includes all the minimum required facts."
+    }
+  },
+  {
+    "id": "sem-16",
+    "category": "semantic",
+    "graded": true,
+    "question": "I want an intro economics course.",
+    "answer": "Hello! I would be absolutely delighted to help you with that. \n\nIf you are looking for an introductory economics course, **ECON 191: Introduction to Economics** is the perfect fit! \n\nIn this course, you will investigate how people and firms in market economies make economic decisions. You'll explore the environmental and societal implications of economic growth, unemployment, and inflation, and apply Christian views concerning justice, freedom, stewardship, and the nature of human beings to these economic issues.\n\nWe have several great sections available for the Fall 2025 semester, split into two different terms. Here are your options:\n\n### **First Half of the Semester (09/02/2025 - 10/16/2025)**\n\n*   **ECON 191-A**\n    *   **Meeting Time:** MWF | 8:00 AM - 9:05 AM\n    *   **Instructor:** TBA\n*   **ECON 191-B**\n    *   **Meeting Time:** MWF | 11:00 AM - 12:05 PM\n    *   **Instructor:** TBA\n*   **ECON 191-C**\n    *   **Meeting Time:** TTH | 4:00 PM - 5:40 PM\n    *   **Instructor:** Vladimir Snurenco\n\n### **Second Half of the Semester (10/27/2025 - 12/18/2025)**\n\n*   **ECON 191-D**\n    *   **Meeting Time:** MWF | 9:15 AM - 10:20 AM\n    *   **Instructor:** TBA\n*   **ECON 191-E**\n    *   **Meeting Time:** TTH | 4:00 PM - 5:40 PM\n    *   **Instructor:** Vladimir Snurenco\n*   **ECON 191-F**\n    *   **Meeting Time:** TTH | 7:00 PM - 8:40 PM\n    *   **Instructor:** Vladimir Snurenco\n\nDo any of these times or dates work best with your schedule? Let me know, and we can get you all set up!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 5,
+      "total": 5
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified ECON 191: Introduction to Economics and accurately listed all its sections, times, dates, and instructors without any fabrication."
+    }
+  },
+  {
+    "id": "sem-17",
+    "category": "semantic",
+    "graded": true,
+    "question": "Private guitar lessons?",
+    "answer": "Hello! I would be happy to help you with that. Here at Calvin University, we have three different options for private guitar lessons, depending on whether you want to take them for credit or non-credit, and how long you want each lesson to be:\n\n### **Non-Credit Options**\nIf you are looking to take lessons purely for personal enrichment (pass/fail), we have two non-credit options:\n\n*   **MUSC 030-I | Non-Credit Private Lessons: Guitar**\n    *   **Instructor:** TBA\n    *   **Meeting Time:** No meeting time listed\n    *   **Description:** This course includes twelve 30-minute sessions of private instruction in applied music. Lessons are graded on a pass/fail basis. Please see the catalog for fee details.\n*   **MUSC 060-I | Non-Credit Private Lessons: Guitar**\n    *   **Instructor:** TBA\n    *   **Meeting Time:** No meeting time listed\n    *   **Description:** This course includes twelve 60-minute sessions of private instruction in applied music. Lessons are graded on a pass/fail basis. Please see the catalog for fee details.\n\n---\n\n### **For-Credit Option**\nIf you are looking to earn academic credit for your lessons, we offer:\n\n*   **MUSC 260-I | Private Lessons for Credit: Guitar**\n    *   **Instructor:** TBA\n    *   **Meeting Time:** No meeting time listed\n    *   **Description:** This course includes 12 sixty-minute sessions of private instruction in applied music. In addition to preparing for your weekly lessons, you will be expected to participate in studio classes, perform in joint student recitals, and take a jury (a final performance exam) at the end of the semester. \n    *   **Requirements:** You must complete a performance screening prior to your first semester of enrollment, or obtain permission from the instructor. Please see the catalog for fee details.\n\nLet me know if you have any other questions about signing up!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately presented all three guitar lesson options from the retrieved data and included all required facts without any fabrication."
+    }
+  },
+  {
+    "id": "sem-18",
+    "category": "semantic",
+    "graded": true,
+    "question": "Private oboe lessons?",
+    "answer": "Hi there! I would be happy to help you with that. At Calvin University, we offer three different options for private oboe lessons, all taught by instructor **Tiffany Engle**. None of these sections have a set meeting time listed, so you'll coordinate your lesson times directly. \n\nHere are the details for your options:\n\n### 1. **Non-Credit (30-Minute Lessons)**\n* **Section:** MUSC 030-L | Non-Credit Private Lessons: Oboe\n* **Description:** This course includes twelve 30-minute sessions of private instruction in applied music. Lessons are graded on a pass/fail basis. \n* **Fee:** See the catalog for details.\n\n### 2. **Non-Credit (60-Minute Lessons)**\n* **Section:** MUSC 060-L | Non-Credit Private Lessons: Oboe\n* **Description:** This course includes twelve 60-minute sessions of private instruction in applied music. Lessons are graded on a pass/fail basis. \n* **Fee:** See the catalog for details.\n\n### 3. **For Credit (60-Minute Lessons)**\n* **Section:** MUSC 260-L | Private Lessons for Credit: Oboe\n* **Description:** This course includes 12 sixty-minute sessions of private instruction. In addition to preparing for weekly lessons, you will be expected to participate in studio classes, perform in joint student recitals, and take a jury (final performance exam) at the end of the semester. \n* **Prerequisites:** You must complete a performance screening prior to your first semester of enrollment or obtain permission from the instructor.\n* **Fee:** See the catalog for details.\n\nLet me know if you need help deciding which option is the best fit for your schedule and goals!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately provided all required facts and correctly detailed the three available oboe lesson options without any fabrication."
+    }
+  },
+  {
+    "id": "sem-19",
+    "category": "semantic",
+    "graded": true,
+    "question": "Private lessons on harpsichord or organ?",
+    "answer": "Hello! I would be happy to help you explore your options for private harpsichord or organ lessons here at Calvin University. \n\nWe have wonderful options for both instruments, all taught by **Forrest Wakeman**. There are no meeting times listed for these courses, and they all have an associated fee (you can check the catalog for those details). \n\nHere are the specific courses available for each:\n\n### **Harpsichord Lessons**\nYou can choose between non-credit or for-credit options:\n*   **Non-Credit (30-Minute Sessions):** `MUSC 030-K` \n    *   Includes twelve 30-minute sessions of private instruction. These lessons are graded on a pass/fail basis.\n*   **Non-Credit (60-Minute Sessions):** `MUSC 060-K`\n    *   Includes twelve 60-minute sessions of private instruction. These lessons are also pass/fail.\n*   **For-Credit (60-Minute Sessions):** `MUSC 260-K`\n    *   Includes twelve 60-minute sessions of private instruction. \n    *   *Requirements:* In addition to weekly lesson preparation, you will be expected to participate in studio classes, perform in joint student recitals, and take a jury (final performance exam) at the end of the semester. You must complete a performance screening prior to your first semester of enrollment or obtain permission from the instructor.\n\n---\n\n### **Organ Lessons**\nSimilarly, we offer non-credit and for-credit pathways for the organ:\n*   **Non-Credit (30-Minute Sessions):** `MUSC 030-M` \n    *   Includes twelve 30-minute sessions of private instruction. These lessons are pass/fail.\n*   **Non-Credit (60-Minute Sessions):** `MUSC 060-M`\n    *   Includes twelve 60-minute sessions of private instruction. These lessons are pass/fail.\n*   **For-Credit (60-Minute Sessions):** `MUSC 260-M`\n    *   Includes twelve 60-minute sessions of private instruction. \n    *   *Requirements:* Just like the for-credit harpsichord course, you will be expected to prepare for weekly lessons, participate in studio classes, perform in joint student recitals, and take a jury at the end of the semester. A completed performance screening prior to enrollment or permission from the instructor is required.\n\nLet me know if you would like help registering or if you have any other questions about these sections!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately provided all required facts and correctly detailed the course numbers, descriptions, and instructor information from the retrieved data."
+    }
+  },
+  {
+    "id": "sem-20",
+    "category": "semantic",
+    "graded": true,
+    "question": "Is there an art class on visual culture?",
+    "answer": "Hi there! Yes, we have a wonderful course dedicated specifically to that topic! \n\n**ART 153-A | Visual Culture**\n* **Instructor:** TBA\n* **Meeting Time:** Tuesdays and Thursdays (TTH) | 7:00 PM - 8:40 PM\n* **Dates:** 09/02/2025 - 10/16/2025\n* **Description:** This course focuses on how meaning is made through our visual environment. You will study a wide range of visual forms from contexts including architecture, art history, popular culture, and advertising, in order to gain a better understanding of how our contemporary experiences and identities are informed and shaped by images. The course critically examines the various uses of visual images in contemporary culture through a combination of image analysis, image production, lectures, screenings, field trips, and student presentations. It is intended for first- and second-year students, and there is a materials fee.\n\n*(Additionally, our **ARTS 358-A/B | Advanced Ceramics** courses also touch upon how artists can make contributions to the field of ceramics and visual culture, but ART 153-A is our primary course dedicated entirely to the subject!)*\n\nLet me know if you need help adding this to your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified ART 153-A (Visual Culture) and accurately represented all course details, including the optional mention of ARTS 358-A/B, without any fabrication."
+    }
+  },
+  {
+    "id": "instr-01",
+    "category": "instructor",
+    "graded": true,
+    "question": "What does Keith Vander Linden teach?",
+    "answer": "Hi there! I would be happy to help you with that. \n\nProfessor Keith Vander Linden is teaching the following course sections:\n\n1. **CS 104-A | Applied Computing**\n   * **Meeting Time:** Mondays, Wednesdays, and Fridays (MWF) from 12:15 PM to 1:20 PM (Runs from 09/02/2025 to 10/16/2025)\n   * **Description:** An introduction to problem solving and program design for engineering students. Coverage includes algorithmic thinking, problem decomposition, types and expressions, functions and parameter passing, control structures, I/O, simple data structures, and classes.\n\n2. **CS 104-B | Applied Computing**\n   * **Meeting Time:** Mondays, Wednesdays, and Fridays (MWF) from 12:15 PM to 1:20 PM (Runs from 10/27/2025 to 12/18/2025)\n   * **Description:** This is the same introductory computer science course as CS 104-A, but offered during the second half of the semester.\n\n3. **CS 262-A | Software Engineering**\n   * **Meeting Time:** Mondays and Wednesdays (MW) from 1:30 PM to 2:35 PM, and Fridays (F) from 1:30 PM to 3:50 PM (Runs from 09/02/2025 to 12/18/2025)\n   * **Description:** A survey of software engineering principles including software project management, system and requirements analysis, the design and implementation of software and information systems, design patterns, software quality assurance and testing, and software maintenance.\n\nLet me know if you would like help adding any of these to your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified all courses taught by Keith Vander Linden and accurately represented their details from the retrieved data."
+    }
+  },
+  {
+    "id": "instr-02",
+    "category": "instructor",
+    "graded": true,
+    "question": "Which classes does Ken Arnold teach?",
+    "answer": "Hi there! I would be happy to help you with that. \n\nBased on our current course listings, Professor Ken Arnold is teaching the following classes:\n\n*   **CS 106-A | Introduction to Scientific Computation And Modeling** \n    *   *Time:* MWF | 2:45 PM - 3:50 PM\n*   **CS 106L-A | Introduction to Scientific Computation And Modeling Lab** \n    *   *Time:* TH | 10:20 AM - 12:00 PM\n*   **CS 300-A | Special Topics: Human-Centered AI** \n    *   *Time:* MWF | 11:00 AM - 12:05 PM\n*   **CS 396-A | Senior Project in Computing** \n    *   *Time:* T | 7:00 PM - 7:50 PM\n*   **DATA 396-A | Senior Project in Data Science** \n    *   *Time:* T | 7:00 PM - 7:50 PM\n\nLet me know if you have any questions about these courses or if you need help putting your schedule together!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately lists all courses taught by Ken Arnold, including all required facts, with no fabrications or contradictions."
+    }
+  },
+  {
+    "id": "instr-03",
+    "category": "instructor",
+    "graded": true,
+    "question": "What courses does Dave Warners teach?",
+    "answer": "Hi there! I would be absolutely delighted to help you with that. \n\nProfessor Dave Warners is teaching several fantastic biology courses for the upcoming semester (running from September 2, 2025, to December 18, 2025). Here are the classes he is offering:\n\n1. **BIOL 141L-A | Cell Biology and Genetics Lab**\n   * **Meeting Time:** Tuesdays, 8:00 AM - 10:50 AM\n   * **Description:** This lab is designed to teach crucial lab skills while reinforcing key concepts in cellular and molecular biology. It's a great opportunity to explore the connections between scientific methods, evidence, and knowledge. (Note: There is a lab fee).\n\n2. **BIOL 160-A | Ecological and Evolutionary Systems**\n   * **Meeting Time:** Mondays, Wednesdays, and Fridays, 11:00 AM - 12:05 PM\n   * **Description:** This course covers the basic concepts in ecological and evolutionary biology, including topics like population ecology, genetics, community ecology, and environmental sustainability. It involves lectures, in-class activities, and discussions to help develop your critical thinking skills.\n\n3. **BIOL 295-A | Biology Seminar**\n   * **Meeting Time:** Fridays, 2:45 PM - 3:35 PM\n   * **Description:** A seminar presenting various vocational and research topics in biology and related disciplines by visiting speakers, faculty, and students. (Note: Biology majors must complete two semesters of this course, but students of all levels are welcome to attend!).\n\n4. **BIOL 395-A | Perspectives in Biology**\n   * **Meeting Time:** Mondays, Wednesdays, and Fridays, 12:15 PM - 1:20 PM\n   * **Description:** This is a writing-intensive course integrating interdisciplinary perspectives on contemporary challenges and enduring questions in biology. You'll engage with primary literature, participate in class discussions, present a research talk, write a thesis paper, and develop a vocational articulation of how to contribute to resolving scientific and societal challenges.\n\nLet me know if you have any questions about registering for these classes! Have a wonderful semester!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified all courses taught by Dave Warners, including the required courses, with accurate meeting times and descriptions supported by the retrieved data."
+    }
+  },
+  {
+    "id": "instr-04",
+    "category": "instructor",
+    "graded": true,
+    "question": "I'd like a class taught by Kevin Timpe.",
+    "answer": "Hi there! I would be happy to help you find a class taught by Kevin Timpe. We have three wonderful options available:\n\n### 1. **PHIL 137-A | Disability, Community, and Advocacy**\n* **Instructor:** Kevin Timpe\n* **Meeting Time:** MWF | 9:15 AM - 10:20 AM\n* **Dates:** 09/02/2025 - 10/16/2025\n* **Description:** This course explores the philosophy, nature, history, and social dynamics of disability. This course will introduce students to the disability rights movement, the concept of \"disability pride,\" and aspects of disability culture. How we treat disabled individuals depends on our understandings and assumptions regarding the nature and value of disabilities. Students will learn how individuals with disabilities have had to actively campaign for civil rights and legal protections, and how that struggle continues to shape communities impacted by disabilities. Two interconnected foci of the course are (1) how individuals with disabilities have been regularly and systematically excluded from their communities, and (2) how the inclusion of individuals in a community is good for the community itself. The course thus involves critical reflection on what our practices reflect about our default understanding of community and how we should revise what community ought to be like.\n\n### 2. **PHIL 137-B | Disability, Community, and Advocacy**\n* **Instructor:** Kevin Timpe\n* **Meeting Time:** MWF | 9:15 AM - 10:20 AM\n* **Dates:** 10/27/2025 - 12/18/2025\n* **Description:** This course explores the philosophy, nature, history, and social dynamics of disability. This course will introduce students to the disability rights movement, the concept of \"disability pride,\" and aspects of disability culture. How we treat disabled individuals depends on our understandings and assumptions regarding the nature and value of disabilities. Students will learn how individuals with disabilities have had to actively campaign for civil rights and legal protections, and how that struggle continues to shape communities impacted by disabilities. Two interconnected foci of the course are (1) how individuals with disabilities have been regularly and systematically excluded from their communities, and (2) how the inclusion of individuals in a community is good for the community itself. The course thus involves critical reflection on what our practices reflect about our default understanding of community and how we should revise what community ought to be like.\n\n### 3. **PHIL 211-A | Philosophy of Gender**\n* **Instructor:** Kevin Timpe\n* **Meeting Time:** MWF | 11:00 AM - 12:05 PM\n* **Dates:** 09/02/2025 - 12/18/2025\n* **Description:** In this course students are offered the opportunity to gain a historically-grounded philosophical understanding of the concept of gender, to understand the ways in which gender concepts are formed by, and in their turn, form contemporary cultural beliefs and practices, and to consider how these issues intersect with a Reformed understanding of human life.\n\nLet me know if you would like help registering for any of these sections!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified all courses taught by Kevin Timpe, including PHIL 137, with completely accurate details supported by the retrieved data."
+    }
+  },
+  {
+    "id": "instr-05",
+    "category": "instructor",
+    "graded": true,
+    "question": "Does Douglas Vander Griend teach General Chemistry?",
+    "answer": "Hi there! I would be happy to help you with that. \n\nYes, Douglas Vander Griend does teach General Chemistry! Here are the specific sections he is teaching:\n\n*   **CHEM 101-C | General Chemistry I** \n    *   **Meeting Time:** MWF | 11:00 AM - 12:05 PM (09/02/2025 - 12/18/2025)\n*   **CHEM 103-A | Accelerated General Chemistry** \n    *   **Meeting Time:** MWF | 9:15 AM - 10:20 AM (09/02/2025 - 12/18/2025)\n*   **CHEM 103L-A | Accelerated General Chemistry Lab** \n    *   **Meeting Time:** Tuesdays (T) | 8:00 AM - 10:50 AM (09/02/2025 - 12/18/2025)\n\nPlease let me know if you have any other questions about these courses or if you need help setting up your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly answered the question, included all required facts, and accurately represented the course details from the retrieved data."
+    }
+  },
+  {
+    "id": "instr-06",
+    "category": "instructor",
+    "graded": true,
+    "question": "What sections does Vladimir Snurenco teach?",
+    "answer": "Hello! I would be happy to help you with that. \n\nBased on our current course listings, instructor Vladimir Snurenco is teaching the following sections:\n\n*   **CORE 100-22 | Community and Commitments**\n    *   **Time:** TTH | 7:00 PM - 8:40 PM (09/02/2025 - 10/16/2025)\n*   **ECON 191-C | Introduction to Economics**\n    *   **Time:** TTH | 4:00 PM - 5:40 PM (09/02/2025 - 10/16/2025)\n*   **ECON 191-E | Introduction to Economics**\n    *   **Time:** TTH | 4:00 PM - 5:40 PM (10/27/2025 - 12/18/2025)\n*   **ECON 191-F | Introduction to Economics**\n    *   **Time:** TTH | 7:00 PM - 8:40 PM (10/27/2025 - 12/18/2025)\n*   **ECON 221-B | Principles of Microeconomics**\n    *   **Time:** TTH | 2:10 PM - 3:50 PM (09/02/2025 - 10/16/2025)\n*   **ECON 222-A | Principles of Macroeconomics**\n    *   **Time:** TTH | 2:10 PM - 3:50 PM (10/27/2025 - 12/18/2025)\n*   **ECON 222-B | Principles of Macroeconomics**\n    *   **Time:** TTH | 4:00 PM - 5:40 PM (10/27/2025 - 12/18/2025)\n\nPlease let me know if you need help registering or have any other questions about these classes!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified all sections taught by Vladimir Snurenco, including ECON 191, with accurate course details matching the retrieved data."
+    }
+  },
+  {
+    "id": "instr-07",
+    "category": "instructor",
+    "graded": true,
+    "question": "Who is Tiffany Engle and what does she teach?",
+    "answer": "Hi there! I would be happy to help you with that! \n\nTiffany Engle is an instructor at Calvin University. Based on our current course listings, she teaches a wide range of music courses, including ensemble classes, academic lectures, and private lessons. Here is a breakdown of what she teaches:\n\n### **Academic and Ensemble Courses**\n* **Understanding and Enjoying Music** (MUSC 103-A & MUSC 103-B): An introductory course in historically-informed critical and perceptive listening to music. \n* **Collaborative Musicianship** (MUSC 118-A & MUSC 118-B): A course focused on the study and performance of music for small ensembles.\n* **Symphonic Band** (MUSC 151-A & MUSC 151-B): A course for studying and performing representative works in concert band literature.\n* **Wind Ensemble** (MUSC 161-A & MUSC 161-B): A course dedicated to studying and performing representative works in chamber wind and concert band literature.\n\n### **Private Lessons**\nShe also teaches **Non-Credit Private Lessons** (available in 30-minute and 60-minute formats) as well as **Private Lessons for Credit** (60-minute formats) for the following instruments:\n* Bassoon (MUSC 030-C, 060-C, 260-C)\n* Clarinet (MUSC 030-E, 060-E, 260-E)\n* Euphonium (MUSC 030-F, 060-F, 260-F)\n* Flute (MUSC 030-G, 060-G, 260-G)\n* French Horn (MUSC 030-H, 060-H, 260-H)\n* Oboe (MUSC 030-L, 060-L, 260-L)\n* Percussion (MUSC 030-N, 060-N, 260-N)\n* Recorder (MUSC 030-O, 060-O, 260-O)\n* Saxophone (MUSC 030-P, 060-P, 260-P)\n* Trombone (MUSC 030-R, 060-R, 260-R)\n* Trumpet (MUSC 030-S, 060-S, 260-S)\n* Tuba (MUSC 030-T, 060-T, 260-T)\n\nIf you have any questions about signing up for her classes or lessons, feel free to ask!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot's answer is completely accurate, contains all required facts, and does not fabricate any course details."
+    }
+  },
+  {
+    "id": "instr-08",
+    "category": "instructor",
+    "graded": true,
+    "question": "What does Forrest Wakeman teach?",
+    "answer": "Hi there! As your course advisor, I would be happy to help you see what Forrest Wakeman teaches here at Calvin University. Based on our current course listings, he teaches the following sections:\n\n*   **Non-Credit Private Lessons (30-minute sessions):**\n    *   Harpsichord (MUSC 030-K)\n    *   Organ (MUSC 030-M)\n    *   Composition (MUSC 030-W)\n    *   Piano (MUSC 030-A)\n\n*   **Non-Credit Private Lessons (60-minute sessions):**\n    *   Piano (MUSC 060-A)\n    *   Harpsichord (MUSC 060-K)\n    *   Organ (MUSC 060-M)\n\n*   **Private Lessons for Credit:**\n    *   Composition Lessons for Credit (MUSC 240-A)\n    *   Private Lessons for Credit: Organ (MUSC 260-M)\n    *   Private Lessons for Credit: Harpsichord (MUSC 260-K)\n    *   Private Lessons for Credit: Piano (MUSC 260-A)\n\n*   **Academic & Performance Courses:**\n    *   Advanced Techniques in Music (MUSC 208-A)\n    *   Piano Accompanying in Worship (MUSC 221-A)\n    *   Arranging and Orchestration (MUSC 316-A)\n    *   Half Recital (MUSC 270-A)\n    *   Full Recital (MUSC 370-A)\n\nLet me know if you would like more details or help registering for any of these sections!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately lists all courses taught by Forrest Wakeman, including the required mentions of Harpsichord and Organ, with no fabricated details."
+    }
+  },
+  {
+    "id": "instr-09",
+    "category": "instructor",
+    "graded": true,
+    "question": "Which CS 104 lab section does Chris Wieringa teach?",
+    "answer": "Hi there! I would be happy to help you with that. \n\nChris Wieringa teaches two lab sections for CS 104 (Applied Computing Lab):\n\n*   **CS 104L-A**: Meets on Tuesdays from 12:15 PM - 1:55 PM (running from 09/02/2025 to 10/16/2025).\n*   **CS 104L-C**: Meets on Tuesdays from 12:15 PM - 1:55 PM (running from 10/27/2025 to 12/18/2025).\n\nLet me know if you have any other questions about putting your schedule together!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately identified both CS 104L sections taught by Chris Wieringa with correct meeting times and dates from the retrieved data."
+    }
+  },
+  {
+    "id": "instr-10",
+    "category": "instructor",
+    "graded": true,
+    "question": "Which CS 104 lab section does Fernando Pasquini Santos teach?",
+    "answer": "Hello! I would be happy to help you with that. \n\nProfessor Fernando Pasquini Santos teaches two lab sections for CS 104 (Applied Computing Lab):\n\n*   **CS 104L-B**: Meets on Tuesdays (T) from 2:10 PM to 3:50 PM (running from 09/02/2025 to 10/16/2025).\n*   **CS 104L-D**: Meets on Tuesdays (T) from 2:10 PM to 3:50 PM (running from 10/27/2025 to 12/18/2025).\n\nLet me know if you need help with anything else as you plan your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified both CS 104L lab sections taught by Fernando Pasquini Santos and accurately detailed their meeting times and dates based on the retrieved data."
+    }
+  },
+  {
+    "id": "instr-11",
+    "category": "instructor",
+    "graded": true,
+    "question": "Is Daniel Kroeze teaching anything this fall?",
+    "answer": "Hi there! \n\nYes, Daniel Kroeze is listed as an instructor! He is co-teaching the following course along with Dale Cooper:\n\n* **ML 101-CPI | Old Testament Survey**\n  * **Instructor:** Daniel Kroeze; Dale Cooper\n  * **Meeting Time:** No meeting time listed\n\nPlease note that there are no specific dates or semesters listed for this course in our records, but he is indeed teaching this section! Let me know if you have any other questions.",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified that Daniel Kroeze is teaching ML 101-CPI and accurately represented all course details from the retrieved data."
+    }
+  },
+  {
+    "id": "instr-12",
+    "category": "instructor",
+    "graded": true,
+    "question": "What about Dale Cooper \u2014 same course as Daniel Kroeze?",
+    "answer": "Hi there! Yes, that is correct. Dale Cooper and Daniel Kroeze are both instructors for the exact same course section:\n\n**ML 101-CPI | Old Testament Survey**\n* **Instructors:** Daniel Kroeze; Dale Cooper\n* **Meeting Time:** No meeting time listed\n* **Description:** This course prepares leaders in the church to be faithful and effective stewards of the Word by acquainting them with the basic content and principal theme of each book of the Old Testament; the historical, geographical, and cultural backgrounds to the Old Testament; its introductory hermeneutical principles; and its continuing relevance.\n\nPlease let me know if you have any other questions about this course or any others! I'm happy to help.",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified that Dale Cooper and Daniel Kroeze co-teach ML 101-CPI and accurately provided all required facts and course details."
+    }
+  },
+  {
+    "id": "instr-13",
+    "category": "instructor",
+    "graded": false,
+    "question": "I want a class with a Professor Snyder.",
+    "answer": "Hi there! I'd love to help you find your classes, but looking through our current course list, I don't see any sections being offered by a Professor Snyder. \n\nIf you have another instructor in mind or are interested in a different subject, let me know and I'd be happy to help you find the perfect class!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "FAIL",
+      "reason": "The chatbot's answer omits the required fact explaining that \"Snyder\" is ambiguous and why the search fell through."
+    }
+  },
+  {
+    "id": "know-01",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "What classes meet on Monday afternoons?",
+    "answer": "Hi there! I would be happy to help you find the right classes for your schedule. \n\nLooking at our current course list, we have a couple of options that meet on Monday afternoons:\n\n1. **PER 102-A | Nordic Walking** \n   * **Instructor:** Kattie Carpenter\n   * **Meeting Time:** Mondays and Wednesdays (MW) from **12:15 PM - 1:05 PM**\n   * **Description:** This is a great choice if you want to stay active! You'll learn the basics of Nordic walking, meeting twice a week in class and walking once a week on your own.\n\n2. **BIOL 115-A | Essentials of Human Anatomy and Physiology**\n   * **Instructor:** Julienne Brock\n   * **Meeting Time:** Mondays, Wednesdays, and Fridays (MWF) from **11:00 AM - 1:00 PM**\n   * **Description:** While this class starts in the late morning, its second hour (12:00 PM - 1:00 PM) runs into the early afternoon. This is a thorough study of human biology, anatomy, and physiology, featuring three two-hour lecture/lab sessions weekly.\n\n*(Note: **COMM 395-A | Special Topics: Advanced Postproduction** meets MWF from 11:00 AM to 12:05 PM, so it wraps up just as the afternoon is beginning!)*\n\nLet me know if you have any questions about these courses or if you need help planning the rest of your schedule!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "know-02",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "Are there any morning classes before 9am?",
+    "answer": "Hi there! Yes, we have two morning classes that start before 9:00 AM. Both of these run on Tuesdays and Thursdays (TTH) starting at 8:55 AM:\n\n1. **PER 101-B | Jogging and Rd Racing**\n   * **Instructor:** Ryan Souders\n   * **Meeting Time:** TTH | 8:55 AM - 9:45 AM\n   * **Description:** This class focuses on the knowledge and application of running mechanics, helping you develop or enhance a routine running program to increase endurance.\n\n2. **PER 107-D | Strength and Conditioning**\n   * **Instructor:** John Ross\n   * **Meeting Time:** TTH | 8:55 AM - 9:45 AM\n   * **Description:** This course emphasizes fitness development and maintenance through resistance training, highlighting proper technique, program development, and basic muscular physiology.\n\nLet me know if you have any questions about these options or if you'd like help with anything else!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "know-03",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "Show me classes that meet on Tuesday and Thursday only.",
+    "answer": "Hi there! I would be happy to help you find classes that fit your schedule. Here are the course sections that meet only on Tuesdays and Thursdays (TTH):\n\n*   **PER 101-B | Jogging and Rd Racing** \n    *   **Instructor:** Ryan Souders\n    *   **Meeting Time:** TTH | 8:55 AM - 9:45 AM | 09/02/2025 - 12/18/2025\n    *   **Description:** This class will focus on knowledge and application of running mechanics as they apply to the spectrum of jogging and running. This class will also focus on developing or enhancing the student's routine participation in jogging and/or running to increase cardiorespiratory and muscular endurance.\n\n*   **PER 107-D | Strength and Conditioning** \n    *   **Instructor:** John Ross\n    *   **Meeting Time:** TTH | 8:55 AM - 9:45 AM | 09/02/2025 - 12/18/2025\n    *   **Description:** The emphasis in this course will be fitness development and maintenance through the modality of resistance training. Proper technique, program development, and basic muscular physiology will all be highlighted in this class.\n\n*   **PER 112-B | Learn to Swim** \n    *   **Instructor:** Christopher Sullivan\n    *   **Meeting Time:** TTH | 10:20 AM - 11:10 AM | 09/02/2025 - 12/18/2025\n    *   **Description:** A course in this area is designed to provide students with the basic knowledge and activity requirements to maintain active lives.\n\n*   **PER 107-E | Strength and Conditioning** \n    *   **Instructor:** Kattie Carpenter\n    *   **Meeting Time:** TTH | 12:15 PM - 1:05 PM | 09/02/2025 - 12/18/2025\n    *   **Description:** The emphasis in this course will be fitness development and maintenance through the modality of resistance training. Proper technique, program development, and basic muscular physiology will all be highlighted in this class.\n\n*   **PER 102-B | Nordic Walking** \n    *   **Instructor:** Youngkhill Lee\n    *   **Meeting Time:** TTH | 1:10 PM - 2:00 PM | 09/02/2025 - 12/18/2025\n    *   **Description:** This course is designed to provide students with the basic knowledge and activity requirements to maintain active lives through walking. Students will walk twice a week in class and once per week on their own.\n\n*   **MUSC 295-A | String Methods** \n    *   **Instructor:** Patricia Wunder\n    *   **Meeting Time:** TTH | 3:00 PM - 3:45 PM | 09/02/2025 - 12/18/2025\n    *   **Description:** Class lessons on string instruments for the music education major. Emphasis is on the methods for teaching string instruments. Elementary playing skills are developed.\n\nLet me know if you need help with anything else or have questions about these options!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "know-04",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "What courses are offered in the evening, after 6pm?",
+    "answer": "Hello! I'd be happy to help you with that. \n\nBased on the course options available, there is only one course offered in the evening after 6:00 PM:\n\n* **CS 383-A | External Practicum**\n  * **Instructor:** Derek Schuurman\n  * **Meeting Time:** Thursdays (TH) | 7:00 PM - 7:50 PM \n  * **Dates:** 09/02/2025 - 12/18/2025\n  * **Description:** Students work at least 60 hours in a position that must be related to their major. May be repeated multiple times for credit. No more than 12 credit hours of internship and/or practicum can be counted toward graduation requirements. International students enrolled in this course may apply for CPT authorization. This is an online course.\n\nIf you have any other questions about these courses, feel free to ask!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "know-05",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "I need a class that doesn't meet on Fridays.",
+    "answer": "Hello there! I'd be happy to help you with your schedule. \n\nThe great news is that **none of the courses currently available in my list meet on Fridays**! You have plenty of options to choose from depending on your interests. \n\nHere is a breakdown of the courses you can take that won\u2019t interfere with your Fridays:\n\n### **Monday / Wednesday (MW) Classes**\n*   **PER 101-A | Jogging and Rd Racing** \n    *   *Instructor:* Kattie Carpenter | *Time:* 9:15 AM - 10:05 AM\n*   **PER 112-A | Spinning** \n    *   *Instructor:* John Ross | *Time:* 11:00 AM - 11:50 AM\n*   **PER 102-A | Nordic Walking** \n    *   *Instructor:* Kattie Carpenter | *Time:* 12:15 PM - 1:05 PM\n\n### **Tuesday / Thursday (TTH) Classes**\n*   **PER 101-B | Jogging and Rd Racing** \n    *   *Instructor:* Ryan Souders | *Time:* 8:55 AM - 9:45 AM\n*   **PER 144-A | Ultimate Frisbee** \n    *   *Instructor:* Daniel Gelderloos | *Time:* 12:15 PM - 1:20 PM (09/02/2025 - 10/16/2025)\n*   **PER 102-B | Nordic Walking** \n    *   *Instructor:* Youngkhill Lee | *Time:* 1:10 PM - 2:00 PM\n\n### **Tuesday Only (T) Classes**\n*   **PHYS 131L-A | Matter, Light & Energy Lab** \n    *   *Instructor:* Larry Molnar | *Time:* 8:00 AM - 10:50 AM (10/27/2025 - 12/18/2025)\n*   **PHYS 131L-B | Matter, Light & Energy Lab** \n    *   *Instructor:* Larry Molnar | *Time:* 11:15 AM - 2:05 PM (10/27/2025 - 12/18/2025)\n\n### **Courses with No Scheduled Meeting Times (Highly Flexible)**\nThese courses do not have a standard weekly meeting time listed, making them great for a flexible schedule:\n*   **MUSC 030-A, G, or H | Non-Credit Private Lessons (Piano, Flute, or French Horn)** (Twelve 30-minute private sessions)\n*   **ARTS 390-A | Independent Study in Studio Arts** (Requires prerequisites and proposal)\n*   **IDIS 384-A | Sustainability Experience** (100 hours in a professional setting)\n*   **RECR 383-A | External Practicum** (Online, at least 60 hours in a position related to your major)\n*   **SPHO 390-A | Direct Enrollment At Upfm** (Spanish elective credit)\n\nLet me know if any of these catch your eye, and we can look into getting you registered!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "know-06",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "Which sections meet MWF at 11am?",
+    "answer": "Hi there! \n\nAfter looking through our available course sections, we actually don't have any classes that meet on **MWF at 11:00 AM**. \n\nHowever, if you are looking for something close to that timeframe or schedule, here are a couple of options that might interest you:\n\n* **Phonetics Lab (SPAUD 216L-A)** meets on **Mondays** from 11:00 AM - 12:20 PM.\n* **Phonetics Lab (SPAUD 216L-B)** meets on **Wednesdays** from 11:00 AM - 12:20 PM.\n* **Enhanced Written Rhetoric I (ENGL 100-A)** meets on **MWF** but a bit later, from 12:15 PM - 1:20 PM.\n\nLet me know if you have any questions about these or if you'd like help finding another class!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "know-07",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "Do any CS classes meet on Wednesdays only?",
+    "answer": "Hi there! I'd be happy to help you with your schedule. \n\nLooking at our current course listings, there are **no** Computer Science (CS) classes that meet on Wednesdays only. \n\nMost of our CS classes meet on Mondays, Wednesdays, and Fridays (MWF), Tuesdays and Thursdays (TTH), Tuesdays only (T), Mondays and Thursdays (MTH), or do not have a listed meeting time. \n\nLet me know if you would like help finding a class that fits into your schedule!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "know-08",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "I want a class with no Friday meetings.",
+    "answer": "Hello! I would be happy to help you find a class that has no Friday meetings. \n\nLooking at our available courses, none of them meet on Fridays! Here are your options categorized by how they meet:\n\n### **Monday & Wednesday (MW) Classes**\n*   **PER 102-A | Nordic Walking** | Kattie Carpenter | MW | 12:15 PM - 1:05 PM\n    *   *Description:* Designed to provide students with the basic knowledge and activity requirements to maintain active lives through walking. Students walk twice a week in class and once per week on their own.\n*   **PER 112-A | Spinning** | John Ross | MW | 11:00 AM - 11:50 AM\n    *   *Description:* Designed to provide students with the basic knowledge and activity requirements to maintain active lives.\n\n### **Tuesday & Thursday (TTH) Classes**\n*   **PER 102-B | Nordic Walking** | Youngkhill Lee | TTH | 1:10 PM - 2:00 PM\n    *   *Description:* Designed to provide students with the basic knowledge and activity requirements to maintain active lives through walking. Students walk twice a week in class and once per week on their own.\n*   **PER 144-A | Ultimate Frisbee** | Daniel Gelderloos | TTH | 12:15 PM - 1:20 PM (09/02/2025 - 10/16/2025)\n    *   *Description:* Learn the skills, rules, and fundamental to advanced techniques and strategies to play Ultimate Frisbee.\n*   **COMM 395-B | Special Topics: Podcasting** | Robert Prince | TTH | 7:00 PM - 8:40 PM\n    *   *Description:* Topic, readings, and assignments will be announced prior to the year offered. Designed for students from various majors.\n\n### **Classes with No Scheduled Meeting Times**\nThese courses do not have set meeting times listed, meaning you will not have regular Friday class sessions to attend:\n*   **SPHO 390-A | Direct Enrollment At Upfm** | TBA\n    *   *Description:* Direct enrollment in at least one course at the university is required of all students in this program (except those in SPAN 302). Counts as elective credit toward the Spanish major/minor.\n*   **RECR 383-A | External Practicum** | Youngkhill Lee; Meredith Segur\n    *   *Description:* Online. Students work at least 60 hours in a position related to their major (requires department approval; not open to first-year students).\n*   **EDUC 596-OL1 | Specialized Literature Survey** | John Walcott\n    *   *Description:* A guided reading program of 2000 pages (or equivalent) negotiated with the instructor in a chosen area of study.\n*   **EDUC 620-OL1 | Faith and Pedagogy** | TBA\n    *   *Description:* Examines how Christian commitments can inform pedagogical designs and processes.\n*   **Non-Credit Private Music Lessons** (Tiffany Engle / TBA)\n    *   These include twelve 30-minute or 60-minute sessions of private instruction. Pass/fail:\n        *   **MUSC 030-H** (French Horn, 30-min)\n        *   **MUSC 060-H** (French Horn, 60-min)\n        *   **MUSC 030-E** (Clarinet, 30-min)\n        *   **MUSC 060-E** (Clarinet, 60-min)\n        *   **MUSC 030-G** (Flute, 30-min)\n        *   **MUSC 030-V** (Violin, 30-min)\n\nLet me know if you would like to register for any of these, and we can get you all set up!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "know-09",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "What time does Introduction to Engineering Design meet?",
+    "answer": "Hi there! I would be happy to help you with that. \n\nThe **Introduction to Engineering Design (ENGR 101)** course has four different sections available, each meeting on Mondays, Wednesdays, and Fridays (MWF). Here are the times for each section:\n\n*   **ENGR 101-A** (Instructor: Monica Groenenboom): **8:00 AM - 9:05 AM**\n*   **ENGR 101-B** (Instructor: Samuel Adeyemo): **9:15 AM - 10:20 AM**\n*   **ENGR 101-C** (Instructor: Frederick Haan): **11:00 AM - 12:05 PM**\n*   **ENGR 101-D** (Instructor: Ken Visser): **1:30 PM - 2:35 PM**\n\nLet me know if you have any other questions about these sections!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "know-10",
+    "category": "known_limitation",
+    "graded": false,
+    "question": "Which chemistry sections are in the afternoon?",
+    "answer": "Hi there! I would be happy to help you find a chemistry section that fits into your afternoon schedule. \n\nHere are the chemistry sections offered in the afternoon (starting at 12:00 PM or later):\n\n*   **CHEM 160-A | Chemistry for the Health Sciences** \n    *   **Instructor:** David Benson\n    *   **Time:** MWF | 12:15 PM - 1:20 PM\n*   **CHEM 396-A & CHEM 396-B | Writing a Formal Research Report** \n    *   **Instructor:** Chad Tatko\n    *   **Time:** TH | 1:10 PM - 2:00 PM\n*   **CHEM 102-A | General Chemistry II** \n    *   **Instructor:** Mark Muyskens\n    *   **Time:** MWF | 1:30 PM - 2:35 PM\n*   **CHEM 160-B | Chemistry for the Health Sciences** \n    *   **Instructor:** David Benson\n    *   **Time:** MWF | 1:30 PM - 2:35 PM\n*   **CHEM 172-A | Water, Water, Water** \n    *   **Instructor:** Douglas Vander Griend\n    *   **Time:** MWF | 1:30 PM - 3:30 PM\n*   **CHEM 101L-F | General Chemistry I Lab** \n    *   **Instructor:** Chad Tatko\n    *   **Time:** TH | 2:30 PM - 5:20 PM\n*   **CHEM 160-C | Chemistry for the Health Sciences** \n    *   **Instructor:** TBA\n    *   **Time:** MWF | 2:45 PM - 3:50 PM\n*   **CHEM 210-A | Analytical Chemistry** \n    *   **Instructor:** Kumar Sinniah\n    *   **Time:** MWF | 2:45 PM - 3:50 PM\n\n**Note on late-morning/early-afternoon options:**\n*   **CHEM 102L-A | General Chemistry II Lab** (TBA) runs on Thursdays from **11:15 AM to 2:05 PM**, which starts in the morning but wraps up in the afternoon. \n*   **CHEM 295-A | Chemistry Seminar** (Herb Fynewever) runs on Thursdays from **11:15 AM to 12:05 PM**, ending just as the afternoon begins.\n\nLet me know if you have questions about any of these courses or need help putting your schedule together!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": false,
+      "verdict": null,
+      "reason": null
+    }
+  },
+  {
+    "id": "edge-01",
+    "category": "edge_case",
+    "graded": true,
+    "question": "Who teaches CHEM 101-A?",
+    "answer": "Hi there! I would be happy to help you with your course questions. \n\nLooking at our current course list, **CHEM 101-A** (the lecture section) is not listed. \n\nHowever, if you are looking for the lab section, **CHEM 101L-A (General Chemistry I Lab)**, the instructor is currently listed as **TBA** (To Be Announced). \n\nIf you have questions about any of the other sections or need help registering, just let me know!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 0.0,
+      "hits": 0,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified that CHEM 101-A is not listed and accurately stated that the instructor for CHEM 101L-A is TBA."
+    }
+  },
+  {
+    "id": "edge-02",
+    "category": "edge_case",
+    "graded": true,
+    "question": "When does Tiffany Engle's oboe lesson meet?",
+    "answer": "Hello! I'd be happy to help you with that. \n\nFor the oboe lessons taught by Tiffany Engle, there is actually **no meeting time listed** in the schedule. This applies to all three available sections:\n\n*   **MUSC 030-L** (Non-Credit Private Lessons: Oboe)\n*   **MUSC 060-L** (Non-Credit Private Lessons: Oboe)\n*   **MUSC 260-L** (Private Lessons for Credit: Oboe)\n\nTypically, for private lessons like these, you will coordinate directly with the instructor to set up a meeting time that works for both of your schedules. Let me know if you need help with anything else!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly states that no meeting time is listed for Tiffany Engle's oboe lessons and accurately identifies the three relevant course sections."
+    }
+  },
+  {
+    "id": "edge-03",
+    "category": "edge_case",
+    "graded": true,
+    "question": "What does Professor Zzyzx Nonexistent teach?",
+    "answer": "Hello! \n\nI looked through our current course listings, and it looks like we don't have any classes listed for a Professor Zzyzx Nonexistent. \n\nIf you have questions about any of our other courses or professors who are on the schedule, please let me know. I would be more than happy to help you find the right class!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified that Professor Zzyzx Nonexistent is not in the course catalog and did not fabricate any information."
+    }
+  },
+  {
+    "id": "edge-04",
+    "category": "edge_case",
+    "graded": true,
+    "question": "Does Calvin offer a law school program?",
+    "answer": "Hello! I'd be happy to help you with your question. \n\nBased on the course information available to me, there is no mention of a law school program. The only courses currently listed are various sections of **CORE 100: Community and Commitments**, which is an introductory course focusing on Calvin's Reformed theological tradition and educational framework. \n\nIf you have any questions about the CORE 100 sections or need help finding a specific time that works for you, please let me know!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified that a law school program is not in the catalog and accurately described the available CORE 100 courses without any fabrication."
+    }
+  },
+  {
+    "id": "edge-05",
+    "category": "edge_case",
+    "graded": true,
+    "question": "What sections of General Chemistry I are open?",
+    "answer": "Hi there! I would be happy to help you find the right fit for your schedule. \n\nBased on our course listings, here are the available sections for **General Chemistry I (CHEM 101)** and its corequisite, **General Chemistry I Lab (CHEM 101L)**:\n\n### **General Chemistry I (CHEM 101) Lecture Sections**\n*   **CHEM 101-A** | MWF | 8:00 AM - 9:05 AM | Instructor: TBA\n*   **CHEM 101-B** | MWF | 9:15 AM - 10:20 AM | Instructor: TBA\n*   **CHEM 101-D** | MWF | 12:15 PM - 1:20 PM | Instructor: Herb Fynewever\n*   **CHEM 101-E** | MWF | 1:30 PM - 2:35 PM | Instructor: Laura Westrate\n*   **CHEM 101-F** | MWF | 2:45 PM - 3:50 PM | Instructor: Herb Fynewever\n*   **CHEM 101-O** | No meeting time listed | Instructor: TBA\n\n---\n\n### **General Chemistry I Lab (CHEM 101L) Sections**\n*(Note: A CHEM 101 lab is a required corequisite for the lecture)*\n*   **CHEM 101L-A** | Tuesdays | 8:00 AM - 10:50 AM | Instructor: TBA\n*   **CHEM 101L-B** | Tuesdays | 11:15 AM - 2:05 PM | Instructor: TBA\n*   **CHEM 101L-C** | Tuesdays | 2:30 PM - 5:20 PM | Instructor: TBA\n*   **CHEM 101L-D** | Thursdays | 8:00 AM - 10:50 AM | Instructor: TBA\n*   **CHEM 101L-E** | Thursdays | 11:15 AM - 2:05 PM | Instructor: TBA\n*   **CHEM 101L-F** | Thursdays | 2:30 PM - 5:20 PM | Instructor: Chad Tatko\n*   **CHEM 101L-G** | Tuesdays | 7:00 PM - 9:50 PM | Instructor: TBA\n*   **CHEM 101L-H** | Thursdays | 7:00 PM - 9:50 PM | Instructor: TBA\n*   **CHEM 101L-O** | No meeting time listed | Instructor: TBA\n\nLet me know if you need help pairing a lecture with a lab that works best for your weekly schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 0.8,
+      "hits": 4,
+      "total": 5
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot accurately listed multiple CHEM 101 lecture and lab sections with correct times, days, and instructors as supported by the retrieved data."
+    }
+  },
+  {
+    "id": "edge-06",
+    "category": "edge_case",
+    "graded": true,
+    "question": "Who teaches the CS 104 lab sections?",
+    "answer": "Hi there! \n\nLooking through our current list of course sections, we actually don't have any CS 104 lab sections listed. \n\nHowever, if you're looking for other introductory computer science labs, we do have:\n* **CS 108L** (Intro to Computing Lab) taught by **Rocky Chang**\n* **CS 112L** (Intro to Data Structures Lab) taught by **Chris Wieringa**\n\nLet me know if you have questions about any of these other sections or need help putting your schedule together!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 0.0,
+      "hits": 0,
+      "total": 4
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "FAIL",
+      "reason": "The answer omits the required fact regarding Fernando Pasquini Santos."
+    }
+  },
+  {
+    "id": "edge-07",
+    "category": "edge_case",
+    "graded": false,
+    "question": "Any good classes?",
+    "answer": "Hello! I would be delighted to help you explore some of the wonderful course options we have here at Calvin University! Depending on your interests, here is a list of the classes currently available:\n\n### **Communication**\n*   **COMM 395-A | Special Topics: Advanced Postproduction** \n    *   **Instructor:** Samuel Smartt\n    *   **Time:** MWF, 11:00 AM - 12:05 PM (09/02/2025 - 12/18/2025)\n    *   **Description:** Designed for students from various majors. Topic, readings, and assignments will be announced prior to the year offered.\n*   **COMM 395-B | Special Topics: Podcasting** \n    *   **Instructor:** Robert Prince\n    *   **Time:** TTH, 7:00 PM - 8:40 PM (09/02/2025 - 12/18/2025)\n    *   **Description:** Designed for students from various majors. Topic, readings, and assignments will be announced prior to the year offered.\n\n### **Physical Education & Recreation**\nIf you want to stay active, we have several great physical education courses designed to help you maintain an active life:\n*   **PER 112-A | Spinning** (Instructor: John Ross | MW, 11:00 AM - 11:50 AM)\n*   **PER 112-B | Learn to Swim** (Instructor: Christopher Sullivan | TTH, 10:20 AM - 11:10 AM)\n*   **PER 144-A | Ultimate Frisbee** (Instructor: Daniel Gelderloos | TTH, 12:15 PM - 1:20 PM | runs 09/02/2025 - 10/16/2025)\n    *   *Description:* Learn basic throwing (forehand and backhand) and catching, as well as advanced skills, techniques, strategies, and rules.\n*   **PER 107 | Strength and Conditioning** \n    *   *Description:* Focuses on fitness development and maintenance through resistance training, highlighting proper technique, program development, and basic muscular physiology.\n    *   **Section A:** Henry DuMez | MW | 9:15 AM - 10:05 AM\n    *   **Section B:** Kattie Carpenter | MW | 11:00 AM - 11:50 AM\n    *   **Section C:** Daniel Gelderloos | MW | 12:15 PM - 1:05 PM\n    *   **Section D:** John Ross | TTH | 8:55 AM - 9:45 AM\n    *   **Section E:** Kattie Carpenter | TTH | 12:15 PM - 1:05 PM\n\n### **Business**\n*   **BUS 352-A | Negotiation and Skills Theory** \n    *   **Instructor:** Suraj Sharma\n    *   **Time:** TTH, 12:15 PM - 1:55 PM (runs 10/27/2025 - 12/18/2025)\n    *   **Description:** Learn concepts for different negotiation approaches (like principled negotiation) reinforced through practical simulated negotiations. Graded on tests, participation, and a mock negotiation. *Note: Junior or higher standing is required for enrollment.*\n\n### **Computer Science**\n*   **CS 108L | Intro to Computing Lab** (Instructor: Rocky Chang)\n    *   **Section A:** TH | 8:00 AM - 9:40 AM\n    *   **Section B:** TH | 12:15 PM - 1:55 PM\n*   **CS 104L-A | Applied Computing Lab** (Instructor: Chris Wieringa)\n    *   **Time:** T | 12:15 PM - 1:55 PM (runs 09/02/2025 - 10/16/2025)\n\n### **Education**\n*   **EDUC 330L-A | Curriculum & Instruction: C I Lab** \n    *   **Instructor:** Kim Breuker\n    *   **Time:** TTH, 8:00 AM - 11:30 AM (09/02/2025 - 12/18/2025)\n\nLet me know if any of these catch your eye, and I can help you with the next steps!",
+    "retrieval": {
+      "applicable": false,
+      "recall": null
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot successfully handled the vague query by providing a coherent, accurate, and well-structured list of available courses that perfectly matches the retrieved data."
+    }
+  }
+]
