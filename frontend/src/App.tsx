@@ -128,7 +128,15 @@ export default function App() {
         {status === "done" && (
           <article className="answer-enter rounded-md border border-l-4 border-rule border-l-maroon bg-white p-6">
             <p className="whitespace-pre-wrap text-sm leading-relaxed">
-              {answer}
+              {answer
+                .split(/(\*\*[^*]+\*\*)/g)
+                .map((part, i) =>
+                  part.startsWith("**") && part.endsWith("**") ? (
+                    <strong key={i}>{part.slice(2, -2)}</strong>
+                  ) : (
+                    part
+                  ),
+                )}
             </p>
           </article>
         )}

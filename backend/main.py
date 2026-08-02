@@ -132,6 +132,11 @@ def ask(q: Question):
         "Respond in plain conversational text only. Do not use markdown — "
         "no asterisks, no bold, no headers, no bullet points. Write course "
         "listings as plain sentences or simple dashed lines instead.\n\n"
+        "Respond in plain conversational text with one exception: wrap ONLY "
+        "the course code and title (e.g. **CS 106-A | Introduction to "
+        "Scientific Computation**) in double asterisks for bold. Do not bold "
+        "or apply any markdown to the instructor, meeting time, description, "
+        "or any other text. Do not use markdown headers or bullet points.\n\n"
         f"RELEVANT SECTIONS:\n{catalog}\n\n"
         f"STUDENT QUESTION: {q.question}"
     )
