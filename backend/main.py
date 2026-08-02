@@ -129,6 +129,9 @@ def ask(q: Question):
         "Answer the student's question using ONLY the course sections below.\n"
         "Each entry is: section name | title | instructor | meeting time, "
         "followed by its description.\n\n"
+        "Respond in plain conversational text only. Do not use markdown — "
+        "no asterisks, no bold, no headers, no bullet points. Write course "
+        "listings as plain sentences or simple dashed lines instead.\n\n"
         f"RELEVANT SECTIONS:\n{catalog}\n\n"
         f"STUDENT QUESTION: {q.question}"
     )
