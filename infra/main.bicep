@@ -13,7 +13,7 @@ param location string = 'eastus2'
 param geminiApiKey string
 
 @description('Python version for the App Service runtime')
-param pythonVersion string = '3.11'
+param pythonVersion string = '3.14'
 
 var uniqueSuffix = uniqueString(resourceGroup().id)
 var appServicePlanName = '${appNameBase}-plan-${uniqueSuffix}'
