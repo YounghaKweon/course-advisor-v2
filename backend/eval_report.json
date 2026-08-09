@@ -504,42 +504,6 @@
     }
   },
   {
-    "id": "instr-09",
-    "category": "instructor",
-    "graded": true,
-    "question": "Which CS 104 lab section does Chris Wieringa teach?",
-    "answer": "Hi there! I would be happy to help you with that. \n\nChris Wieringa teaches two lab sections for CS 104 (Applied Computing Lab):\n\n*   **CS 104L-A**: Meets on Tuesdays from 12:15 PM - 1:55 PM (running from 09/02/2025 to 10/16/2025).\n*   **CS 104L-C**: Meets on Tuesdays from 12:15 PM - 1:55 PM (running from 10/27/2025 to 12/18/2025).\n\nLet me know if you have any other questions about putting your schedule together!",
-    "retrieval": {
-      "applicable": true,
-      "recall": 1.0,
-      "hits": 2,
-      "total": 2
-    },
-    "judge": {
-      "applicable": true,
-      "verdict": "PASS",
-      "reason": "The chatbot accurately identified both CS 104L sections taught by Chris Wieringa with correct meeting times and dates from the retrieved data."
-    }
-  },
-  {
-    "id": "instr-10",
-    "category": "instructor",
-    "graded": true,
-    "question": "Which CS 104 lab section does Fernando Pasquini Santos teach?",
-    "answer": "Hello! I would be happy to help you with that. \n\nProfessor Fernando Pasquini Santos teaches two lab sections for CS 104 (Applied Computing Lab):\n\n*   **CS 104L-B**: Meets on Tuesdays (T) from 2:10 PM to 3:50 PM (running from 09/02/2025 to 10/16/2025).\n*   **CS 104L-D**: Meets on Tuesdays (T) from 2:10 PM to 3:50 PM (running from 10/27/2025 to 12/18/2025).\n\nLet me know if you need help with anything else as you plan your schedule!",
-    "retrieval": {
-      "applicable": true,
-      "recall": 1.0,
-      "hits": 2,
-      "total": 2
-    },
-    "judge": {
-      "applicable": true,
-      "verdict": "PASS",
-      "reason": "The chatbot correctly identified both CS 104L lab sections taught by Fernando Pasquini Santos and accurately detailed their meeting times and dates based on the retrieved data."
-    }
-  },
-  {
     "id": "instr-11",
     "category": "instructor",
     "graded": true,
@@ -752,24 +716,6 @@
     }
   },
   {
-    "id": "edge-01",
-    "category": "edge_case",
-    "graded": true,
-    "question": "Who teaches CHEM 101-A?",
-    "answer": "Hi there! I would be happy to help you with your course questions. \n\nLooking at our current course list, **CHEM 101-A** (the lecture section) is not listed. \n\nHowever, if you are looking for the lab section, **CHEM 101L-A (General Chemistry I Lab)**, the instructor is currently listed as **TBA** (To Be Announced). \n\nIf you have questions about any of the other sections or need help registering, just let me know!",
-    "retrieval": {
-      "applicable": true,
-      "recall": 0.0,
-      "hits": 0,
-      "total": 1
-    },
-    "judge": {
-      "applicable": true,
-      "verdict": "PASS",
-      "reason": "The chatbot correctly identified that CHEM 101-A is not listed and accurately stated that the instructor for CHEM 101L-A is TBA."
-    }
-  },
-  {
     "id": "edge-02",
     "category": "edge_case",
     "graded": true,
@@ -838,24 +784,6 @@
     }
   },
   {
-    "id": "edge-06",
-    "category": "edge_case",
-    "graded": true,
-    "question": "Who teaches the CS 104 lab sections?",
-    "answer": "Hi there! \n\nLooking through our current list of course sections, we actually don't have any CS 104 lab sections listed. \n\nHowever, if you're looking for other introductory computer science labs, we do have:\n* **CS 108L** (Intro to Computing Lab) taught by **Rocky Chang**\n* **CS 112L** (Intro to Data Structures Lab) taught by **Chris Wieringa**\n\nLet me know if you have questions about any of these other sections or need help putting your schedule together!",
-    "retrieval": {
-      "applicable": true,
-      "recall": 0.0,
-      "hits": 0,
-      "total": 4
-    },
-    "judge": {
-      "applicable": true,
-      "verdict": "FAIL",
-      "reason": "The answer omits the required fact regarding Fernando Pasquini Santos."
-    }
-  },
-  {
     "id": "edge-07",
     "category": "edge_case",
     "graded": false,
@@ -869,6 +797,78 @@
       "applicable": true,
       "verdict": "PASS",
       "reason": "The chatbot successfully handled the vague query by providing a coherent, accurate, and well-structured list of available courses that perfectly matches the retrieved data."
+    }
+  },
+  {
+    "id": "instr-09",
+    "category": "instructor",
+    "graded": true,
+    "question": "Which CS 104 lab section does Chris Wieringa teach?",
+    "answer": "Hi there! I would be happy to help you with that! \n\nChris Wieringa actually teaches **two** sections of the CS 104 Applied Computing Lab:\n\n1. **CS 104L-A** \n   * **Meeting Time:** Tuesdays (T) from 12:15 PM - 1:55 PM\n   * **Dates:** 09/02/2025 - 10/16/2025\n\n2. **CS 104L-C** \n   * **Meeting Time:** Tuesdays (T) from 12:15 PM - 1:55 PM\n   * **Dates:** 10/27/2025 - 12/18/2025\n\nLet me know if you have any other questions about setting up your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified both CS 104 lab sections taught by Chris Wieringa with accurate meeting times and dates from the retrieved data."
+    }
+  },
+  {
+    "id": "instr-10",
+    "category": "instructor",
+    "graded": true,
+    "question": "Which CS 104 lab section does Fernando Pasquini Santos teach?",
+    "answer": "Hi there! I'd be happy to help you with that. \n\nProfessor Fernando Pasquini Santos teaches two lab sections for CS 104 (Applied Computing Lab):\n\n*   **CS 104L-B**: Meets on Tuesdays from 2:10 PM to 3:50 PM (running from 09/02/2025 to 10/16/2025).\n*   **CS 104L-D**: Meets on Tuesdays from 2:10 PM to 3:50 PM (running from 10/27/2025 to 12/18/2025).\n\nLet me know if you need help finding anything else or putting your schedule together!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 2,
+      "total": 2
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified both CS 104L lab sections taught by Fernando Pasquini Santos with accurate meeting times and dates."
+    }
+  },
+  {
+    "id": "edge-01",
+    "category": "edge_case",
+    "graded": true,
+    "question": "Who teaches CHEM 101-A?",
+    "answer": "Hi there! I'd be happy to help you with that. \n\nCurrently, the instructor for **CHEM 101-A** (General Chemistry I) is listed as **TBA** (To Be Announced). \n\nLet me know if you need help looking into any other chemistry sections or have more questions!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 1,
+      "total": 1
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly states that the instructor for CHEM 101-A is listed as TBA, which matches the retrieved data."
+    }
+  },
+  {
+    "id": "edge-06",
+    "category": "edge_case",
+    "graded": true,
+    "question": "Who teaches the CS 104 lab sections?",
+    "answer": "Hi there! I would be happy to help you with that. \n\nThe CS 104 Applied Computing Lab sections are taught by **Chris Wieringa** and **Fernando Pasquini Santos**. \n\nHere is the breakdown of who teaches each section:\n*   **CS 104L-A**: Chris Wieringa\n*   **CS 104L-B**: Fernando Pasquini Santos\n*   **CS 104L-C**: Chris Wieringa\n*   **CS 104L-D**: Fernando Pasquini Santos\n\nLet me know if you need help with anything else as you plan your schedule!",
+    "retrieval": {
+      "applicable": true,
+      "recall": 1.0,
+      "hits": 4,
+      "total": 4
+    },
+    "judge": {
+      "applicable": true,
+      "verdict": "PASS",
+      "reason": "The chatbot correctly identified all instructors for the CS 104 lab sections and accurately mapped them to their respective sections without any fabrication."
     }
   }
 ]

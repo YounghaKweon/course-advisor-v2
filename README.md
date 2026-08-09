@@ -20,6 +20,26 @@ at startup; any exact match is force-included in the result set before the
 remaining slots are filled with semantic results. Content/topic questions
 are unaffected and use the semantic path exactly as before.
 
+**Course-code hybrid retrieval (Week 6):** same gap as instructor names,
+different field — exact course-code questions (`CHEM 101-A`, `CS 104 lab
+sections`) compete on embedding similarity like everything else and can
+lose to a more generic semantic match (found by the Week 4 eval harness,
+see git history). Fixed the same way: an index built at startup from
+`SectionName` metadata, keyed on both the full section name (`cs 104l-a`)
+and its base course code with the section letter stripped (`cs 104l`), so
+a bare code like "CS 104" correctly returns every section of that course.
+The `"lab"` keyword is handled explicitly — a question about "CS 104 lab
+sections" never contains the literal string `104L` (that's data-internal
+shorthand), so the matcher checks for a `<code>L` family when the question
+says "lab" and routes there instead of the bare lecture family. When both
+a full section name and its bare code match the same question (e.g.
+"CHEM 101-A" contains "CHEM 101"), only the more specific match is kept,
+so asking about one section doesn't pull in the whole course. This does
+**not** cover title-based lookups like "General Chemistry I are open?" —
+that has no literal course code in the question at all, so it's still a
+pure semantic-search case, not a hybrid-retrieval one (see Known
+Limitations).
+
 **Automated evaluation (Week 4):** `backend/test_eval.py` runs a 50-entry
 golden dataset (`backend/golden_dataset.json`) through the live retrieval +
 generation pipeline and scores two separate things: retrieval recall
@@ -30,8 +50,9 @@ correct detail" with "fabrication." 10 of the 50 entries are meeting-time
 queries — tracked for visibility but excluded from scoring, since grading
 a documented gap as a failure doesn't surface anything new.
 
-Current results (38 graded entries): **94% retrieval recall@15**, **97%
-answer-quality pass rate**. The harness caught a real, previously
+Current results (after the Week 6 course-code fix): **99% retrieval
+recall@15**, **100% answer-quality pass rate**, across the same 36/38
+applicable entries as before. The harness caught a real, previously
 undocumented gap in the process — see Known Limitations below.
 
 Run it: `cd backend && python test_eval.py` (writes/resumes
@@ -42,26 +63,19 @@ output.
 
 ## Known Limitations
 
-- **Exact course-code lookups are unreliable.** Like instructor names,
-  a specific course code (`CHEM 101-A`, `CS 104` lab sections) is
-  structured, filterable data that semantic search has no special
-  awareness of — it competes on embedding similarity like everything
-  else, and can lose to a more generic semantic match. Found by the
-  Week 4 eval harness, not by manual testing:
-  - "Who teaches CHEM 101-A?" — 0/1 expected section retrieved.
-  - "Who teaches the CS 104 lab sections?" — 0/4 retrieved; the answer
-    substituted unrelated courses (`CS 108L`, `CS 112L`) that happened
-    to score higher on semantic similarity.
-  - "What sections of General Chemistry I are open?" — 4/5 retrieved.
-  - The chatbot itself doesn't hallucinate in these cases — it answers
-    honestly from what it retrieved — but what it retrieved was wrong.
-  - Content/topic questions and instructor-name questions are unaffected
-    and tested reliably (94% retrieval recall@15 overall, see above).
-  - Fix path: same pattern as the Week 3 instructor index — build a
-    course-code index (`SectionName`/`CourseNumber`) from Chroma
-    metadata and force-include exact matches. Scoped as a future item
-    rather than folded into Week 4, to keep "built the eval suite" and
-    "fixed what it found" as separate, individually verifiable steps.
+- ~~Exact course-code lookups are unreliable~~ — **fixed in Week 6.**
+  Originally found by the Week 4 eval harness ("Who teaches CHEM 101-A?"
+  and "Who teaches the CS 104 lab sections?" both missed their expected
+  sections under pure semantic search). See "Course-code hybrid
+  retrieval (Week 6)" above for the fix. Not covered by this fix:
+  **title-based course lookups**, e.g. "What sections of General
+  Chemistry I are open?" — there's no literal course code in that
+  question, so it's still evaluated purely on semantic similarity to
+  the section description, and retrieval can still be incomplete (4/5
+  in eval testing). That's a genuinely different problem — matching a
+  course's common name to its code isn't a lookup, it's the kind of
+  fuzzy-match task semantic search is supposed to handle, and stays
+  out of scope for the hybrid-retrieval fix.
 
 - **Exact meeting day/time lookups are unreliable.** Retrieval has no
   awareness of the `MeetingPatterns` field as literal, filterable data —

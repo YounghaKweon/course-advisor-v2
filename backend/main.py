@@ -68,6 +68,64 @@ def find_instructor_matches(question: str) -> list:
     return list(dict.fromkeys(matched_ids))  # dedupe, preserve order
 
 
+def build_course_code_index() -> dict:
+    # Week 6: exact course-code lookup, same shape as build_instructor_index —
+    # built once at startup from metadata already in Chroma, no re-embedding
+    # needed since SectionName was already stored. Two key types per section:
+    # the full section name ("cs 104l-a") and its base course code with the
+    # section letter stripped ("cs 104l"), so a bare-code question like
+    # "CS 104" correctly returns every section of that course, not just one.
+    all_rows = collection.get(include=["metadatas"])
+    index: dict[str, list[str]] = {}
+    for section_id, metadata in zip(all_rows["ids"], all_rows["metadatas"]):
+        section_name = metadata.get("SectionName", "")
+        if not section_name:
+            continue
+        full = section_name.lower()
+        index.setdefault(full, []).append(section_id)
+        if "-" in full:
+            base = full.rsplit("-", 1)[0].strip()
+            index.setdefault(base, []).append(section_id)
+    return index
+
+
+COURSE_CODE_INDEX = build_course_code_index()
+
+
+def find_course_code_matches(question: str) -> list:
+    q_lower = question.lower()
+    candidates = [key for key in COURSE_CODE_INDEX if key in q_lower]
+
+    # Real gap from the golden dataset (edge-06): "CS 104 lab sections"
+    # never contains the literal string "104l" — the L suffix is
+    # data-internal shorthand for lab sections, not something a student
+    # would type. If the question says "lab" and a bare code like "cs 104"
+    # matched, also check whether the corresponding "cs 104l" family exists
+    # and route there instead.
+    if "lab" in q_lower:
+        for key in list(candidates):
+            lab_key = key + "l"
+            if lab_key in COURSE_CODE_INDEX and lab_key not in candidates:
+                candidates.append(lab_key)
+
+    # Prefer the most specific match: if both "chem 101-a" and "chem 101"
+    # matched, the bare code is just a substring of the full name the
+    # student actually typed, not an independent reference to the whole
+    # course family — drop it so "CHEM 101-A" doesn't pull in every CHEM 101
+    # section.
+    candidates.sort(key=len, reverse=True)
+    accepted: list[str] = []
+    for key in candidates:
+        if any(key in longer for longer in accepted):
+            continue
+        accepted.append(key)
+
+    matched_ids: list[str] = []
+    for key in accepted:
+        matched_ids.extend(COURSE_CODE_INDEX[key])
+    return list(dict.fromkeys(matched_ids))  # dedupe, preserve order
+
+
 class Question(BaseModel):
     question: str
 
@@ -97,26 +155,33 @@ def ask(q: Question):
     # Week 3: instructor-name queries are now handled correctly (see
     # find_instructor_matches) since exact instructor strings aren't part
     # of the embedded text and semantic search alone missed them.
+    # Week 6: same gap, different field — exact course-code queries
+    # ("CHEM 101-A", "CS 104 lab sections") competed on embedding
+    # similarity like everything else and could lose to a more generic
+    # semantic match (see find_course_code_matches).
     # Still open: exact meeting-day/time queries ("classes on Monday
     # afternoon") — parsing natural-language day/time references is a
-    # fuzzier problem than name matching and is deliberately out of scope
-    # for this pass.
+    # fuzzier problem than exact-string matching and is deliberately out
+    # of scope for this pass.
     instructor_matches = find_instructor_matches(q.question)
+    course_code_matches = find_course_code_matches(q.question)
+    exact_matches = list(dict.fromkeys(instructor_matches + course_code_matches))
 
     query_vector = embed_question(q.question)
     semantic_results = collection.query(query_embeddings=[query_vector], n_results=TOP_K)
     semantic_ids = semantic_results["ids"][0]
     semantic_metadatas = semantic_results["metadatas"][0]
 
-    if instructor_matches:
-        exact = collection.get(ids=instructor_matches, include=["metadatas"])
+    if exact_matches:
+        exact = collection.get(ids=exact_matches, include=["metadatas"])
         retrieved = list(exact["metadatas"])
-        exact_id_set = set(instructor_matches)
+        exact_id_set = set(exact_matches)
         for section_id, metadata in zip(semantic_ids, semantic_metadatas):
             if section_id not in exact_id_set and len(retrieved) < TOP_K:
                 retrieved.append(metadata)
         print(
-            f"--- HYBRID: {len(exact['metadatas'])} exact instructor match(es), "
+            f"--- HYBRID: {len(instructor_matches)} instructor match(es), "
+            f"{len(course_code_matches)} course-code match(es), "
             f"{len(retrieved)} total sections ---"
         )
     else:

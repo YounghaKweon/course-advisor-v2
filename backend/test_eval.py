@@ -76,6 +76,44 @@ def find_instructor_matches(question: str) -> list:
     return list(dict.fromkeys(matched_ids))
 
 
+def build_course_code_index() -> dict:
+    all_rows = collection.get(include=["metadatas"])
+    index: dict[str, list[str]] = {}
+    for section_id, metadata in zip(all_rows["ids"], all_rows["metadatas"]):
+        section_name = metadata.get("SectionName", "")
+        if not section_name:
+            continue
+        full = section_name.lower()
+        index.setdefault(full, []).append(section_id)
+        if "-" in full:
+            base = full.rsplit("-", 1)[0].strip()
+            index.setdefault(base, []).append(section_id)
+    return index
+
+
+COURSE_CODE_INDEX = build_course_code_index()
+
+
+def find_course_code_matches(question: str) -> list:
+    q_lower = question.lower()
+    candidates = [key for key in COURSE_CODE_INDEX if key in q_lower]
+    if "lab" in q_lower:
+        for key in list(candidates):
+            lab_key = key + "l"
+            if lab_key in COURSE_CODE_INDEX and lab_key not in candidates:
+                candidates.append(lab_key)
+    candidates.sort(key=len, reverse=True)
+    accepted: list[str] = []
+    for key in candidates:
+        if any(key in longer for longer in accepted):
+            continue
+        accepted.append(key)
+    matched_ids: list[str] = []
+    for key in accepted:
+        matched_ids.extend(COURSE_CODE_INDEX[key])
+    return list(dict.fromkeys(matched_ids))
+
+
 import re
 import time
 
@@ -129,16 +167,18 @@ def format_section(metadata: dict) -> str:
 def run_pipeline(question: str) -> tuple[list[str], str, str]:
     """Mirrors /ask in main.py. Returns (retrieved_section_ids, answer_text, catalog_text)."""
     instructor_matches = find_instructor_matches(question)
+    course_code_matches = find_course_code_matches(question)
+    exact_matches = list(dict.fromkeys(instructor_matches + course_code_matches))
     query_vector = embed_question(question)
     semantic_results = collection.query(query_embeddings=[query_vector], n_results=TOP_K)
     semantic_ids = semantic_results["ids"][0]
     semantic_metadatas = semantic_results["metadatas"][0]
 
-    if instructor_matches:
-        exact = collection.get(ids=instructor_matches, include=["metadatas"])
+    if exact_matches:
+        exact = collection.get(ids=exact_matches, include=["metadatas"])
         retrieved_ids = list(exact["ids"])
         retrieved_meta = list(exact["metadatas"])
-        exact_id_set = set(instructor_matches)
+        exact_id_set = set(exact_matches)
         for sid, meta in zip(semantic_ids, semantic_metadatas):
             if sid not in exact_id_set and len(retrieved_meta) < TOP_K:
                 retrieved_ids.append(sid)
