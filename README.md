@@ -12,7 +12,7 @@ index, then sends only those to `gemini-3.5-flash` to generate an answer —
 instead of stuffing the full ~1,000-section catalog into every prompt (the
 original approach: ~27,000 tokens/request, vs. ~2,000 now).
 
-**Hybrid retrieval (Week 3):** semantic search alone has no awareness of
+**Hybrid retrieval:** semantic search alone has no awareness of
 structured fields like `Instructors` as literal, filterable data — see
 Known Limitations. Instructor-name questions ("What does [instructor]
 teach?") are checked against a full-name index built from Chroma metadata
@@ -20,7 +20,7 @@ at startup; any exact match is force-included in the result set before the
 remaining slots are filled with semantic results. Content/topic questions
 are unaffected and use the semantic path exactly as before.
 
-**Course-code hybrid retrieval (Week 6):** same gap as instructor names,
+**Course-code hybrid retrieval:** same gap as instructor names,
 different field — exact course-code questions (`CHEM 101-A`, `CS 104 lab
 sections`) compete on embedding similarity like everything else and can
 lose to a more generic semantic match (found by the Week 4 eval harness,
@@ -40,7 +40,7 @@ that has no literal course code in the question at all, so it's still a
 pure semantic-search case, not a hybrid-retrieval one (see Known
 Limitations).
 
-**Automated evaluation (Week 4):** `backend/test_eval.py` runs a 50-entry
+**Automated evaluation:** `backend/test_eval.py` runs a 50-entry
 golden dataset (`backend/golden_dataset.json`) through the live retrieval +
 generation pipeline and scores two separate things: retrieval recall
 against known-correct section IDs (deterministic, no LLM call), and answer
@@ -59,7 +59,7 @@ Run it: `cd backend && python test_eval.py` (writes/resumes
 `eval_report.json`) or `pytest test_eval.py -v -s` for full per-entry
 output.
 
-**Deployment & CI/CD (Week 5):** see below.
+**Deployment & CI/CD:** see below.
 
 ## Known Limitations
 
@@ -67,7 +67,7 @@ output.
   Originally found by the Week 4 eval harness ("Who teaches CHEM 101-A?"
   and "Who teaches the CS 104 lab sections?" both missed their expected
   sections under pure semantic search). See "Course-code hybrid
-  retrieval (Week 6)" above for the fix. Not covered by this fix:
+  retrieval" above for the fix. Not covered by this fix:
   **title-based course lookups**, e.g. "What sections of General
   Chemistry I are open?" — there's no literal course code in that
   question, so it's still evaluated purely on semantic similarity to
@@ -94,7 +94,7 @@ output.
     name matching and needs its own scoping pass. Still open as of
     Week 5, which focused on deployment rather than retrieval.
 
-## Deployment & CI/CD (Week 5)
+## Deployment & CI/CD
 
 ### Live demo
 
